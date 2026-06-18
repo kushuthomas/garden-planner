@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Native Garden Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Native Garden Planner</h1>
+    <p class="tagline">Find the right plant for the right place</p>
+    <div class="zone-bar">
+      <input type="text" id="zipInput" placeholder="Enter your ZIP code" maxlength="5" />
+      <button id="zoneBtn">Look Up Zone</button>
+      <span id="zoneResult"></span>
+    </div>
+  </header>
+
+  <main>
+    <aside class="filters">
+      <h2>Filter Plants</h2>
+
+      <div class="filter-group">
+        <label>Light</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="light" value="sun" /> Full Sun</label>
+          <label><input type="checkbox" name="light" value="part-sun" /> Part Sun</label>
+          <label><input type="checkbox" name="light" value="part-shade" /> Part Shade</label>
+          <label><input type="checkbox" name="light" value="shade" /> Full Shade</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label>Moisture</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="moisture" value="wet" /> Wet</label>
+          <label><input type="checkbox" name="moisture" value="moist" /> Moist</label>
+          <label><input type="checkbox" name="moisture" value="dry" /> Dry</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label>Plant Type</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="type" value="perennial" /> Perennial</label>
+          <label><input type="checkbox" name="type" value="annual" /> Annual</label>
+          <label><input type="checkbox" name="type" value="fern" /> Fern</label>
+          <label><input type="checkbox" name="type" value="grass" /> Grass</label>
+          <label><input type="checkbox" name="type" value="sedge" /> Sedge</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label>Max Height (feet)</label>
+        <input type="range" id="heightFilter" min="1" max="10" value="10" step="1" />
+        <span id="heightDisplay">Up to 10 ft</span>
+      </div>
+
+      <div class="filter-group">
+        <label>Flower Color</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="color" value="white" /> White</label>
+          <label><input type="checkbox" name="color" value="yellow" /> Yellow</label>
+          <label><input type="checkbox" name="color" value="orange" /> Orange</label>
+          <label><input type="checkbox" name="color" value="pink" /> Pink</label>
+          <label><input type="checkbox" name="color" value="red" /> Red</label>
+          <label><input type="checkbox" name="color" value="blue" /> Blue</label>
+          <label><input type="checkbox" name="color" value="purple" /> Purple</label>
+          <label><input type="checkbox" name="color" value="lavender" /> Lavender</label>
+          <label><input type="checkbox" name="color" value="foliage" /> Foliage only</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label>Difficulty</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="difficulty" value="easy" /> Easy</label>
+          <label><input type="checkbox" name="difficulty" value="moderate" /> Moderate</label>
+          <label><input type="checkbox" name="difficulty" value="challenging" /> Challenging</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label><input type="checkbox" id="nativeOnly" checked /> Native plants only</label>
+      </div>
+
+      <div class="filter-group">
+        <label><input type="checkbox" id="pollinatorOnly" /> Pollinator value</label>
+      </div>
+
+      <button id="resetBtn">Reset Filters</button>
+    </aside>
+
+    <section class="results">
+      <p class="result-count" id="resultCount"></p>
+      <div class="plant-grid" id="plantGrid"></div>
+    </section>
+  </main>
+
+  <script src="plants.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
