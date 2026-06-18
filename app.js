@@ -38,16 +38,19 @@ function filterPlants() {
   const selectedType       = getCheckedValues("type");
   const selectedColor      = getCheckedValues("color");
   const selectedDifficulty = getCheckedValues("difficulty");
+  const selectedRegion     = getCheckedValues("region");
   const maxHeight          = parseInt(document.getElementById("heightFilter").value);
   const nativeOnly         = document.getElementById("nativeOnly").checked;
   const pollinatorOnly     = document.getElementById("pollinatorOnly").checked;
 
   return plants.filter(plant => {
+    const plantRegion = plant.region || "east";
     if (selectedLight.length > 0 && !selectedLight.some(l => plant.light.includes(l))) return false;
     if (selectedMoisture.length > 0 && !selectedMoisture.some(m => plant.moisture.includes(m))) return false;
     if (selectedType.length > 0 && !selectedType.includes(plant.type)) return false;
     if (selectedColor.length > 0 && !selectedColor.some(c => plant.color.includes(c))) return false;
     if (selectedDifficulty.length > 0 && !selectedDifficulty.includes(plant.difficulty)) return false;
+    if (selectedRegion.length > 0 && !selectedRegion.includes(plantRegion)) return false;
     if (plant.heightMin > maxHeight) return false;
     if (nativeOnly && !plant.native) return false;
     if (pollinatorOnly && !plant.pollinatorValue) return false;
