@@ -39,6 +39,8 @@ function filterPlants() {
   const selectedColor      = getCheckedValues("color");
   const selectedDifficulty = getCheckedValues("difficulty");
   const selectedRegion     = getCheckedValues("region");
+  const selectedClay       = getCheckedValues("clay");
+  const selectedBloom      = getCheckedValues("bloom");
   const maxHeight          = parseInt(document.getElementById("heightFilter").value);
   const nativeOnly         = document.getElementById("nativeOnly").checked;
   const pollinatorOnly     = document.getElementById("pollinatorOnly").checked;
@@ -51,6 +53,15 @@ function filterPlants() {
     if (selectedColor.length > 0 && !selectedColor.some(c => plant.color.includes(c))) return false;
     if (selectedDifficulty.length > 0 && !selectedDifficulty.includes(plant.difficulty)) return false;
     if (selectedRegion.length > 0 && !selectedRegion.includes(plantRegion)) return false;
+    if (selectedClay.length > 0) {
+      if (!plant.clayTolerance) return false;
+      if (!selectedClay.includes(plant.clayTolerance)) return false;
+    }
+    if (selectedBloom.length > 0) {
+      if (!plant.bloomSeason) return false;
+      const season = plant.bloomSeason.toLowerCase();
+      if (!selectedBloom.some(b => season.includes(b))) return false;
+    }
     if (plant.heightMin > maxHeight) return false;
     if (nativeOnly && !plant.native) return false;
     if (pollinatorOnly && !plant.pollinatorValue) return false;
@@ -109,6 +120,8 @@ function renderPlants(list) {
           : "&nbsp;·&nbsp; <em style='font-size:0.8rem;color:#888'>foliage</em>"}
       </p>
 
+      ${plant.bloomSeason ? `<p class="plant-meta">Blooms: ${plant.bloomSeason}</p>` : ""}
+      ${plant.clayTolerance ? `<p class="plant-meta">Clay soil: ${plant.clayTolerance.charAt(0).toUpperCase() + plant.clayTolerance.slice(1)}</p>` : ""}
       ${plant.pollinatorValue ? '<p class="pollinator-badge">🌿 Pollinator friendly</p>' : ""}
       ${plant.notes ? `<p class="plant-notes">${plant.notes}</p>` : ""}
     </div>

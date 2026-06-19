@@ -2044,5 +2044,82 @@ const plants = [
     difficulty: "easy",
     region: "southwest",
     notes: "Dramatic architectural plant. Flowers are pollinated exclusively by yucca moths — a fascinating relationship."
+  },
+
+  // --- San Jose / Bay Area California Natives ---
+  {
+    id: 171,
+    scientificName: "Arctostaphylos spp.",
+    commonName: "Manzanita",
+    heightMin: 1, heightMax: 15,
+    light: ["sun"],
+    moisture: ["dry"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white", "pink"],
+    difficulty: "moderate",
+    region: "california",
+    clayTolerance: "fair",
+    bloomSeason: "Winter–Spring",
+    notes: "Iconic California shrub with beautiful smooth red bark. Needs excellent drainage — does not tolerate wet roots. Huge variety of sizes available."
+  },
+  {
+    id: 172,
+    scientificName: "Heteromeles arbutifolia",
+    commonName: "Toyon",
+    heightMin: 8, heightMax: 15,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "california",
+    clayTolerance: "excellent",
+    bloomSeason: "Late Spring",
+    notes: "Hollywood's namesake plant. White summer flowers followed by brilliant red winter berries — vital wildlife food source. Very clay tolerant."
+  },
+  {
+    id: 173,
+    scientificName: "Epilobium canum",
+    commonName: "California Fuchsia",
+    heightMin: 1, heightMax: 3,
+    light: ["sun"],
+    moisture: ["dry"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["red", "orange"],
+    difficulty: "easy",
+    region: "california",
+    clayTolerance: "fair",
+    bloomSeason: "Late Summer–Fall",
+    notes: "Blazing red-orange blooms in late summer when most plants are done. Essential hummingbird plant for fall migration."
+  },
+  {
+    id: 174,
+    scientificName: "Monardella villosa",
+    commonName: "Coyote Mint",
+    heightMin: 1, heightMax: 2,
+    light: ["sun", "part-shade"],
+    moisture: ["dry"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["purple", "lavender"],
+    difficulty: "easy",
+    region: "california",
+    clayTolerance: "fair",
+    bloomSeason: "Summer",
+    notes: "Intensely fragrant mint-family plant. Covered in butterflies and native bees when in bloom."
+  },
+  {
+    id: 175,
+    scientificName: "Cercis occidentalis",
+    commonName: "Western Redbud",
+    heightMin: 10, heightMax: 15,
+    light: ["sun", "part-shade"],
+    moisture: ["dry"],
+    type: "tree", native: true, pollinatorValue: true,
+    color: ["pink", "purple"],
+    difficulty: "easy",
+    region: "california",
+    clayTolerance: "good",
+    bloomSeason: "Early Spring",
+    notes: "One of California's most spectacular native trees — magenta blooms coat bare branches before leaves emerge. Excellent clay tolerance."
   }
 ];
