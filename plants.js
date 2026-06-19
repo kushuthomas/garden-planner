@@ -2108,22 +2108,6 @@ const plants = [
     bloomSeason: "Summer",
     notes: "Intensely fragrant mint-family plant. Covered in butterflies and native bees when in bloom."
   },
-  {
-    id: 175,
-    scientificName: "Cercis occidentalis",
-    commonName: "Western Redbud",
-    heightMin: 10, heightMax: 15,
-    light: ["sun", "part-shade"],
-    moisture: ["dry"],
-    type: "tree", native: true, pollinatorValue: true,
-    color: ["pink", "purple"],
-    difficulty: "easy",
-    region: "california",
-    clayTolerance: "good",
-    bloomSeason: "Early Spring",
-    notes: "One of California's most spectacular native trees — magenta blooms coat bare branches before leaves emerge. Excellent clay tolerance."
-  },
-
   // --- Midwest Groundcovers ---
   {
     id: 180,
@@ -3829,5 +3813,21 @@ const plants = [
     region: "west",
     bloomSeason: "Spring",
     notes: "Cheerful yellow violet for moist woodland spots and stream banks. Heart-shaped leaves stay attractive all season."
+  },
+
+  // --- Eastern Shrubs ---
+  {
+    id: 315,
+    scientificName: "Hamamelis virginiana",
+    commonName: "Common Witch Hazel",
+    heightMin: 8, heightMax: 20,
+    light: ["part-shade", "shade", "sun"],
+    moisture: ["moist", "dry"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["yellow"],
+    difficulty: "easy",
+    region: "east",
+    bloomSeason: "Fall–Winter",
+    notes: "The only native plant in the eastern US to bloom in late autumn — spidery yellow flowers appear October through March, sometimes under snow. Spice-scented. Hardy in Zones 3–8. A neighborhood conversation starter."
   }
 ];
