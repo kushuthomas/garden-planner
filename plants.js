@@ -792,7 +792,8 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
-    difficulty: "easy"
+    difficulty: "easy",
+    notes: "Native to both eastern forests and Pacific Northwest woodlands. Impressive white plumes in summer."
   },
   {
     id: 71,
@@ -2121,5 +2122,63 @@ const plants = [
     clayTolerance: "good",
     bloomSeason: "Early Spring",
     notes: "One of California's most spectacular native trees — magenta blooms coat bare branches before leaves emerge. Excellent clay tolerance."
+  },
+
+  // --- Oregon Shade Groundcovers & Woodland Plants ---
+  {
+    id: 176,
+    scientificName: "Vancouveria hexandra",
+    commonName: "Inside-out Flower",
+    heightMin: 0.5, heightMax: 1,
+    light: ["shade", "part-shade"],
+    moisture: ["moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Delicate white flowers with swept-back petals — like tiny inside-out umbrellas. Spreads to form a lovely ground cover under conifers."
+  },
+  {
+    id: 177,
+    scientificName: "Fragaria vesca",
+    commonName: "Woods Strawberry",
+    heightMin: 0.25, heightMax: 0.5,
+    light: ["part-shade", "part-sun"],
+    moisture: ["dry", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "Produces small, intensely flavored wild strawberries. Spreads by runners to form a charming edible ground cover."
+  },
+  {
+    id: 178,
+    scientificName: "Tellima grandiflora",
+    commonName: "Fringecup",
+    heightMin: 1, heightMax: 2,
+    light: ["shade", "part-shade"],
+    moisture: ["moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["white", "pink"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Tall wands of fringed cup-shaped flowers over handsome evergreen foliage. Self-seeds gently and naturalizes beautifully."
+  },
+  {
+    id: 179,
+    scientificName: "Viola glabella",
+    commonName: "Stream Violet",
+    heightMin: 0.25, heightMax: 0.75,
+    light: ["shade", "part-shade"],
+    moisture: ["wet", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["yellow"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Cheerful yellow violet for moist woodland spots and stream banks. Heart-shaped leaves stay attractive all season."
   }
 ];
