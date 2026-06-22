@@ -124,6 +124,9 @@ function renderPlants(list) {
       ${plant.clayTolerance ? `<p class="plant-meta">Clay soil: ${plant.clayTolerance.charAt(0).toUpperCase() + plant.clayTolerance.slice(1)}</p>` : ""}
       ${plant.pollinatorValue ? '<p class="pollinator-badge">🌿 Pollinator friendly</p>' : ""}
       ${plant.notes ? `<p class="plant-notes">${plant.notes}</p>` : ""}
+      <div class="card-footer">
+        <a class="image-search-link" href="https://www.google.com/search?q=${encodeURIComponent(plant.scientificName)}&udm=2" target="_blank" rel="noopener">Image Search</a>
+      </div>
     </div>
   `).join("");
 }

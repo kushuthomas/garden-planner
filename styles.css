@@ -287,6 +287,24 @@ input[type="range"] {
   vertical-align: middle;
 }
 
+.card-footer {
+  margin-top: 0.8rem;
+  text-align: right;
+}
+
+.image-search-link {
+  font-size: 0.78rem;
+  color: #3b5e3f;
+  text-decoration: none;
+  border-bottom: 1px solid #c5d9c6;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.image-search-link:hover {
+  color: #2a4430;
+  border-bottom-color: #2a4430;
+}
+
 .no-results {
   color: #888;
   font-style: italic;
