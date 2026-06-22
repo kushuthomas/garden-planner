@@ -99,6 +99,8 @@ main {
   align-self: start;
   position: sticky;
   top: 1.5rem;
+  max-height: calc(100vh - 3rem);
+  overflow-y: auto;
 }
 
 .filters h2 {
