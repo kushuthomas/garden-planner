@@ -2235,38 +2235,6 @@ const plants = [
     zones: [7, 10]
   },
   {
-    id: 172,
-    scientificName: "Heteromeles arbutifolia",
-    commonName: "Toyon",
-    heightMin: 8, heightMax: 15,
-    light: ["sun", "part-shade"],
-    moisture: ["dry", "moist"],
-    type: "shrub", native: true, pollinatorValue: true,
-    color: ["white"],
-    difficulty: "easy",
-    region: "california",
-    clayTolerance: "excellent",
-    bloomSeason: "Late Spring",
-    notes: "Hollywood's namesake plant. White summer flowers followed by brilliant red winter berries — vital wildlife food source. Very clay tolerant.",
-    zones: [7, 10]
-  },
-  {
-    id: 173,
-    scientificName: "Epilobium canum",
-    commonName: "California Fuchsia",
-    heightMin: 1, heightMax: 3,
-    light: ["sun"],
-    moisture: ["dry"],
-    type: "perennial", native: true, pollinatorValue: true,
-    color: ["red", "orange"],
-    difficulty: "easy",
-    region: "california",
-    clayTolerance: "fair",
-    bloomSeason: "Late Summer–Fall",
-    notes: "Blazing red-orange blooms in late summer when most plants are done. Essential hummingbird plant for fall migration.",
-    zones: [7, 10]
-  },
-  {
     id: 174,
     scientificName: "Monardella villosa",
     commonName: "Coyote Mint",
@@ -5750,21 +5718,6 @@ const plants = [
     region: "california",
     bloomSeason: "Spring–Summer",
     notes: "Cheerful yellow daisy flowers with dark brown centers from late winter through summer. One of the most floriferous native shrubs of coastal Southern California. Cut back after bloom to keep tidy.",
-    zones: [8, 11]
-  },
-  {
-    id: 423,
-    scientificName: "Encelia farinosa",
-    commonName: "Brittlebush",
-    heightMin: 2, heightMax: 4,
-    light: ["sun"],
-    moisture: ["dry"],
-    type: "shrub", native: true, pollinatorValue: true,
-    color: ["yellow"],
-    difficulty: "easy",
-    region: "california",
-    bloomSeason: "Winter–Spring",
-    notes: "Clouds of golden-yellow daisies over silver-white woolly leaves — spectacular after winter rains. One of the most dramatic native bloomers of Southern California desert edges and chaparral. Burns back in drought and re-sprouts.",
     zones: [8, 11]
   },
   {
