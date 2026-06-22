@@ -11,7 +11,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
     difficulty: "easy",
-    notes: "Highly adaptable — tolerates sun to shade and dry to moist soils. Can spread vigorously."
+    notes: "Highly adaptable — tolerates sun to shade and dry to moist soils. Can spread vigorously.",
     zones: [3, 8]
   },
   {
@@ -23,7 +23,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [2, 9]
   },
   {
@@ -35,7 +35,7 @@ const plants = [
     moisture: ["wet", "dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "pink"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 9]
   },
   {
@@ -47,7 +47,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "sedge", native: true, pollinatorValue: false,
     color: ["foliage"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -59,7 +59,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [3, 8]
   },
   {
@@ -71,7 +71,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [4, 9]
   },
   {
@@ -83,7 +83,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 8]
   },
   {
@@ -95,7 +95,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 9]
   },
   {
@@ -107,7 +107,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [3, 8]
   },
   {
@@ -119,7 +119,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "lavender"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -131,7 +131,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow", "orange"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -143,7 +143,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "violet"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [2, 7]
   },
   {
@@ -155,7 +155,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple", "pink"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -167,7 +167,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 9]
   },
   {
@@ -179,7 +179,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow", "orange"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [3, 7]
   },
   {
@@ -192,7 +192,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red"],
     difficulty: "challenging",
-    notes: "Can be difficult to establish and is short-lived, but reseeds well. Worth the effort for hummingbirds."
+    notes: "Can be difficult to establish and is short-lived, but reseeds well. Worth the effort for hummingbirds.",
     zones: [2, 9]
   },
   {
@@ -204,7 +204,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [4, 8]
   },
   {
@@ -216,7 +216,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["lavender", "purple"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [3, 8]
   },
   {
@@ -228,7 +228,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 9]
   },
   {
@@ -240,7 +240,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "white", "purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 8]
   },
   {
@@ -252,7 +252,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "violet"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -264,7 +264,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "lavender"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [5, 9]
   },
   {
@@ -276,7 +276,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple", "pink"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 8]
   },
   {
@@ -288,7 +288,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 8]
   },
   {
@@ -300,7 +300,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [5, 9]
   },
   {
@@ -312,7 +312,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -324,7 +324,7 @@ const plants = [
     moisture: ["wet", "dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
 
@@ -339,7 +339,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red", "yellow"],
     difficulty: "easy",
-    notes: "Hummingbird magnet in spring. Self-seeds freely and naturalizes well under trees."
+    notes: "Hummingbird magnet in spring. Self-seeds freely and naturalizes well under trees.",
     zones: [3, 8]
   },
   {
@@ -352,7 +352,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "easy",
-    notes: "Excellent low ground cover, 6–12 inches. Long blooming season from spring into summer."
+    notes: "Excellent low ground cover, 6–12 inches. Long blooming season from spring into summer.",
     zones: [5, 9]
   },
   {
@@ -364,7 +364,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -376,7 +376,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -388,7 +388,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "pink"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 9]
   },
   {
@@ -400,7 +400,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 7]
   },
   {
@@ -413,7 +413,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "easy",
-    notes: "One of the few goldenrods that thrives in shade — a valuable late-season nectar source."
+    notes: "One of the few goldenrods that thrives in shade — a valuable late-season nectar source.",
     zones: [4, 8]
   },
   {
@@ -425,7 +425,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "lavender"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -438,7 +438,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "easy",
-    notes: "Dense, spreading ground cover at 3–6 inches. Ideal under trees where little else will grow."
+    notes: "Dense, spreading ground cover at 3–6 inches. Ideal under trees where little else will grow.",
     zones: [3, 8]
   },
 
@@ -452,7 +452,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 8]
   },
   {
@@ -464,7 +464,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "white"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -476,7 +476,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -489,7 +489,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["orange"],
     difficulty: "moderate",
-    notes: "One of the best milkweeds for monarchs. Needs excellent drainage — do not overwater."
+    notes: "One of the best milkweeds for monarchs. Needs excellent drainage — do not overwater.",
     zones: [3, 9]
   },
   {
@@ -502,7 +502,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"],
     difficulty: "moderate",
-    notes: "Slow to establish but extremely long-lived once settled. Do not move after planting."
+    notes: "Slow to establish but extremely long-lived once settled. Do not move after planting.",
     zones: [3, 9]
   },
   {
@@ -514,7 +514,7 @@ const plants = [
     moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 9]
   },
   {
@@ -526,7 +526,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -538,7 +538,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "silver"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [4, 8]
   },
   {
@@ -550,7 +550,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [5, 9]
   },
   {
@@ -562,7 +562,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -574,7 +574,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -586,7 +586,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["lavender", "pink"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -598,7 +598,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 8]
   },
   {
@@ -611,7 +611,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "moderate",
-    notes: "Native eastern cactus — surprisingly hardy. Striking blooms attract specialist bees. Handle with care."
+    notes: "Native eastern cactus — surprisingly hardy. Striking blooms attract specialist bees. Handle with care.",
     zones: [4, 9]
   },
   {
@@ -623,7 +623,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "pink"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -635,7 +635,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "purple"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [5, 8]
   },
   {
@@ -648,7 +648,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "white", "purple"],
     difficulty: "easy",
-    notes: "Ground-hugging mat, only 2–6 inches tall. Spectacular spring bloom, low maintenance after."
+    notes: "Ground-hugging mat, only 2–6 inches tall. Spectacular spring bloom, low maintenance after.",
     zones: [3, 9]
   },
   {
@@ -661,7 +661,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "lavender"],
     difficulty: "easy",
-    notes: "Can spread aggressively in moist, fertile soil. Plant where it has room to roam."
+    notes: "Can spread aggressively in moist, fertile soil. Plant where it has room to roam.",
     zones: [3, 9]
   },
   {
@@ -673,7 +673,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow", "orange"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 9]
   },
   {
@@ -685,7 +685,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 7]
   },
   {
@@ -698,7 +698,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "easy",
-    notes: "Leaf cups collect rainwater — a water source for birds and insects. Very tall; plant at the back."
+    notes: "Leaf cups collect rainwater — a water source for birds and insects. Very tall; plant at the back.",
     zones: [3, 8]
   },
   {
@@ -710,7 +710,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -722,7 +722,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "lavender"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -734,7 +734,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -746,7 +746,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [5, 8]
   },
 
@@ -760,7 +760,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "grass", native: true, pollinatorValue: false,
     color: ["foliage"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -772,7 +772,7 @@ const plants = [
     moisture: ["dry", "wet"],
     type: "grass", native: true, pollinatorValue: false,
     color: ["foliage"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -784,7 +784,7 @@ const plants = [
     moisture: ["dry"],
     type: "grass", native: true, pollinatorValue: false,
     color: ["foliage"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -796,7 +796,7 @@ const plants = [
     moisture: ["dry", "moist"],
     type: "grass", native: true, pollinatorValue: false,
     color: ["foliage"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 9]
   },
   {
@@ -808,7 +808,7 @@ const plants = [
     moisture: ["dry"],
     type: "grass", native: true, pollinatorValue: false,
     color: ["foliage"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
 
@@ -823,7 +823,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: false,
     color: ["white"],
     difficulty: "moderate",
-    notes: "Striking white berries with dark dots are toxic — beautiful but not for gardens with young children."
+    notes: "Striking white berries with dark dots are toxic — beautiful but not for gardens with young children.",
     zones: [3, 7]
   },
   {
@@ -836,7 +836,7 @@ const plants = [
     type: "fern", native: true, pollinatorValue: false,
     color: ["foliage"],
     difficulty: "moderate",
-    notes: "One of the most elegant native ferns. Delicate fan-shaped fronds on wiry black stems."
+    notes: "One of the most elegant native ferns. Delicate fan-shaped fronds on wiry black stems.",
     zones: [3, 8]
   },
   {
@@ -849,7 +849,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: false,
     color: ["green", "purple"],
     difficulty: "moderate",
-    notes: "Fascinating woodland plant. Produces bright red berries in fall. All parts are toxic if eaten raw."
+    notes: "Fascinating woodland plant. Produces bright red berries in fall. All parts are toxic if eaten raw.",
     zones: [4, 9]
   },
   {
@@ -862,7 +862,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
     difficulty: "easy",
-    notes: "Native to both eastern forests and Pacific Northwest woodlands. Impressive white plumes in summer."
+    notes: "Native to both eastern forests and Pacific Northwest woodlands. Impressive white plumes in summer.",
     zones: [3, 7]
   },
   {
@@ -875,7 +875,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: false,
     color: ["foliage"],
     difficulty: "easy",
-    notes: "Excellent dense ground cover for deep shade. Spreads slowly but reliably."
+    notes: "Excellent dense ground cover for deep shade. Spreads slowly but reliably.",
     zones: [3, 7]
   },
   {
@@ -887,7 +887,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "fern", native: true, pollinatorValue: false,
     color: ["foliage"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -900,7 +900,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "easy",
-    notes: "One of the first spring bloomers. Needs consistently wet or boggy conditions."
+    notes: "One of the first spring bloomers. Needs consistently wet or boggy conditions.",
     zones: [3, 7]
   },
   {
@@ -913,7 +913,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "pink"],
     difficulty: "easy",
-    notes: "Ephemeral — dies back by summer. Naturalizes beautifully in lawns and under trees."
+    notes: "Ephemeral — dies back by summer. Naturalizes beautifully in lawns and under trees.",
     zones: [3, 8]
   },
   {
@@ -926,7 +926,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
     difficulty: "moderate",
-    notes: "Tall dramatic spires of white flowers in summer. Slow to establish but striking."
+    notes: "Tall dramatic spires of white flowers in summer. Slow to establish but striking.",
     zones: [3, 8]
   },
   {
@@ -939,7 +939,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink"],
     difficulty: "easy",
-    notes: "Native bleeding heart blooms spring through frost, unlike its Asian cousin. Long-season performer."
+    notes: "Native bleeding heart blooms spring through frost, unlike its Asian cousin. Long-season performer.",
     zones: [3, 9]
   },
   {
@@ -952,7 +952,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "challenging",
-    notes: "Spring ephemeral with beautifully mottled leaves. Slow to establish — do not disturb once planted."
+    notes: "Spring ephemeral with beautifully mottled leaves. Slow to establish — do not disturb once planted.",
     zones: [3, 8]
   },
   {
@@ -964,7 +964,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["lavender", "blue"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -977,7 +977,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: false,
     color: ["white"],
     difficulty: "challenging",
-    notes: "At-risk native plant — avoid purchasing wild-collected plants. Buy only nursery propagated."
+    notes: "At-risk native plant — avoid purchasing wild-collected plants. Buy only nursery propagated.",
     zones: [3, 8]
   },
   {
@@ -990,7 +990,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "lavender"],
     difficulty: "easy",
-    notes: "Only 4–8 inches tall with lavender blooms. Perfect edging or ground cover for shade."
+    notes: "Only 4–8 inches tall with lavender blooms. Perfect edging or ground cover for shade.",
     zones: [3, 8]
   },
   {
@@ -1002,7 +1002,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [5, 8]
   },
   {
@@ -1015,7 +1015,7 @@ const plants = [
     type: "fern", native: true, pollinatorValue: false,
     color: ["foliage"],
     difficulty: "easy",
-    notes: "Dramatic vase-shaped fern. Spreads by runners — give it space. Fiddleheads are edible."
+    notes: "Dramatic vase-shaped fern. Spreads by runners — give it space. Fiddleheads are edible.",
     zones: [2, 7]
   },
   {
@@ -1028,7 +1028,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue"],
     difficulty: "moderate",
-    notes: "Spring ephemeral with sky-blue trumpet flowers. Goes dormant by summer — plant with hostas to fill the gap."
+    notes: "Spring ephemeral with sky-blue trumpet flowers. Goes dormant by summer — plant with hostas to fill the gap.",
     zones: [3, 9]
   },
   {
@@ -1041,7 +1041,7 @@ const plants = [
     type: "fern", native: true, pollinatorValue: false,
     color: ["foliage"],
     difficulty: "easy",
-    notes: "Dies back at first frost (hence 'sensitive'). Spreads readily — excellent for erosion control."
+    notes: "Dies back at first frost (hence 'sensitive'). Spreads readily — excellent for erosion control.",
     zones: [3, 8]
   },
   {
@@ -1053,7 +1053,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "fern", native: true, pollinatorValue: false,
     color: ["foliage"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 10]
   },
   {
@@ -1065,7 +1065,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "fern", native: true, pollinatorValue: false,
     color: ["foliage"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [2, 9]
   },
   {
@@ -1078,7 +1078,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: false,
     color: ["white"],
     difficulty: "easy",
-    notes: "The native alternative to invasive Japanese pachysandra. Semi-evergreen ground cover."
+    notes: "The native alternative to invasive Japanese pachysandra. Semi-evergreen ground cover.",
     zones: [4, 9]
   },
   {
@@ -1090,7 +1090,7 @@ const plants = [
     moisture: ["wet", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -1102,7 +1102,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "lavender"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -1114,7 +1114,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [5, 9]
   },
   {
@@ -1126,7 +1126,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "lavender"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -1138,7 +1138,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 9]
   },
   {
@@ -1151,7 +1151,7 @@ const plants = [
     type: "fern", native: true, pollinatorValue: false,
     color: ["foliage"],
     difficulty: "easy",
-    notes: "Evergreen native fern — provides winter structure and cover. One of the most reliable shade plants."
+    notes: "Evergreen native fern — provides winter structure and cover. One of the most reliable shade plants.",
     zones: [3, 9]
   },
   {
@@ -1164,7 +1164,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"],
     difficulty: "moderate",
-    notes: "Brilliant white spring ephemeral. Short-lived blooms but unforgettable. Goes dormant by midsummer."
+    notes: "Brilliant white spring ephemeral. Short-lived blooms but unforgettable. Goes dormant by midsummer.",
     zones: [3, 9]
   },
   {
@@ -1177,7 +1177,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "easy",
-    notes: "One of the few goldenrods for shade. Named for its distinctively zigzagging stem."
+    notes: "One of the few goldenrods for shade. Named for its distinctively zigzagging stem.",
     zones: [3, 8]
   },
   {
@@ -1190,7 +1190,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red", "yellow"],
     difficulty: "moderate",
-    notes: "Red tubular flowers with yellow star-shaped openings — extraordinary hummingbird plant."
+    notes: "Red tubular flowers with yellow star-shaped openings — extraordinary hummingbird plant.",
     zones: [5, 9]
   },
   {
@@ -1203,7 +1203,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "easy",
-    notes: "Cheerful yellow poppy-like blooms in spring shade. Self-seeds generously."
+    notes: "Cheerful yellow poppy-like blooms in spring shade. Self-seeds generously.",
     zones: [4, 8]
   },
   {
@@ -1215,7 +1215,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "pink"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [3, 8]
   },
   {
@@ -1227,7 +1227,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"],
-    difficulty: "easy"
+    difficulty: "easy",
     zones: [4, 9]
   },
   {
@@ -1240,7 +1240,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: false,
     color: ["white"],
     difficulty: "challenging",
-    notes: "Icon of the woodland garden. Slow growing — buy nursery propagated only, never wild-collected."
+    notes: "Icon of the woodland garden. Slow growing — buy nursery propagated only, never wild-collected.",
     zones: [3, 7]
   },
   {
@@ -1252,7 +1252,7 @@ const plants = [
     moisture: ["moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
-    difficulty: "moderate"
+    difficulty: "moderate",
     zones: [3, 8]
   },
   {
@@ -1266,7 +1266,7 @@ const plants = [
     color: ["purple", "white"],
     difficulty: "easy",
     region: "east",
-    notes: "Host plant for fritillary butterflies. Let them naturalize freely — they are doing important work."
+    notes: "Host plant for fritillary butterflies. Let them naturalize freely — they are doing important work.",
     zones: [3, 8]
   },
 
@@ -1281,7 +1281,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "pink"],
     difficulty: "easy",
-    region: "west"
+    region: "west",
     zones: [6, 9]
   },
   {
@@ -1294,7 +1294,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple", "blue"],
     difficulty: "easy",
-    region: "west"
+    region: "west",
     zones: [4, 8]
   },
   {
@@ -1308,7 +1308,7 @@ const plants = [
     color: ["pink"],
     difficulty: "easy",
     region: "west",
-    notes: "Western counterpart to Eastern bleeding heart. Blooms spring through summer, spreads by rhizome."
+    notes: "Western counterpart to Eastern bleeding heart. Blooms spring through summer, spreads by rhizome.",
     zones: [3, 9]
   },
   {
@@ -1321,7 +1321,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "violet"],
     difficulty: "easy",
-    region: "west"
+    region: "west",
     zones: [7, 10]
   },
   {
@@ -1335,7 +1335,7 @@ const plants = [
     color: ["blue", "purple"],
     difficulty: "easy",
     region: "west",
-    notes: "Historically important food plant for many Pacific Northwest peoples. Stunning in mass plantings."
+    notes: "Historically important food plant for many Pacific Northwest peoples. Stunning in mass plantings.",
     zones: [4, 8]
   },
   {
@@ -1348,7 +1348,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink"],
     difficulty: "moderate",
-    region: "west"
+    region: "west",
     zones: [5, 9]
   },
   {
@@ -1362,7 +1362,7 @@ const plants = [
     color: ["red", "yellow"],
     difficulty: "easy",
     region: "west",
-    notes: "Hummingbird favorite. Western counterpart to Eastern Wild Columbine — same jewel-toned red and yellow."
+    notes: "Hummingbird favorite. Western counterpart to Eastern Wild Columbine — same jewel-toned red and yellow.",
     zones: [3, 9]
   },
   {
@@ -1375,7 +1375,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "easy",
-    region: "west"
+    region: "west",
     zones: [5, 9]
   },
   {
@@ -1388,7 +1388,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple", "blue"],
     difficulty: "easy",
-    region: "west"
+    region: "west",
     zones: [7, 9]
   },
   {
@@ -1402,7 +1402,7 @@ const plants = [
     color: ["yellow", "orange"],
     difficulty: "moderate",
     region: "west",
-    notes: "Stunning but particular — needs excellent drainage and protection from wet winters."
+    notes: "Stunning but particular — needs excellent drainage and protection from wet winters.",
     zones: [7, 9]
   },
   {
@@ -1415,7 +1415,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple", "blue"],
     difficulty: "easy",
-    region: "west"
+    region: "west",
     zones: [5, 9]
   },
   {
@@ -1428,7 +1428,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"],
     difficulty: "easy",
-    region: "west"
+    region: "west",
     zones: [6, 9]
   },
   {
@@ -1442,7 +1442,7 @@ const plants = [
     color: ["yellow"],
     difficulty: "easy",
     region: "west",
-    notes: "Tough, cheerful, drought-tolerant daisy. One of the easiest and most reliable west coast natives."
+    notes: "Tough, cheerful, drought-tolerant daisy. One of the easiest and most reliable west coast natives.",
     zones: [5, 9]
   },
   {
@@ -1456,7 +1456,7 @@ const plants = [
     color: ["white"],
     difficulty: "easy",
     region: "west",
-    notes: "Papery white blooms dry beautifully — excellent for dried arrangements. Spreads by rhizome."
+    notes: "Papery white blooms dry beautifully — excellent for dried arrangements. Spreads by rhizome.",
     zones: [3, 9]
   },
   {
@@ -1469,7 +1469,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"],
     difficulty: "moderate",
-    region: "west"
+    region: "west",
     zones: [5, 9]
   },
   {
@@ -1483,7 +1483,7 @@ const plants = [
     color: ["yellow"],
     difficulty: "easy",
     region: "west",
-    notes: "Low succulent ground cover, only 2–6 inches. Thrives in rocky, poor soil where little else will grow."
+    notes: "Low succulent ground cover, only 2–6 inches. Thrives in rocky, poor soil where little else will grow.",
     zones: [5, 9]
   },
   {
@@ -1497,7 +1497,7 @@ const plants = [
     color: ["white", "pink", "yellow"],
     difficulty: "easy",
     region: "west",
-    notes: "Extremely tough and adaptable. Also found across eastern North America — a true generalist wildflower."
+    notes: "Extremely tough and adaptable. Also found across eastern North America — a true generalist wildflower.",
     zones: [3, 9]
   },
 
@@ -1513,7 +1513,7 @@ const plants = [
     color: ["pink", "purple"],
     difficulty: "easy",
     region: "west",
-    notes: "Direct sow in fall or early spring — does not transplant well. One of the showiest native annuals."
+    notes: "Direct sow in fall or early spring — does not transplant well. One of the showiest native annuals.",
     zones: [7, 10]
   },
   {
@@ -1527,7 +1527,7 @@ const plants = [
     color: ["blue", "purple"],
     difficulty: "easy",
     region: "west",
-    notes: "Powder-puff blue blooms beloved by native bees. Direct sow in fall for best results."
+    notes: "Powder-puff blue blooms beloved by native bees. Direct sow in fall for best results.",
     zones: [7, 10]
   },
   {
@@ -1541,7 +1541,7 @@ const plants = [
     color: ["orange", "yellow"],
     difficulty: "easy",
     region: "west",
-    notes: "State flower of California. Self-seeds prolifically — plant once and it returns every year."
+    notes: "State flower of California. Self-seeds prolifically — plant once and it returns every year.",
     zones: [6, 10]
   },
 
@@ -1557,7 +1557,7 @@ const plants = [
     color: ["red", "pink"],
     difficulty: "easy",
     region: "california",
-    notes: "Spreads by runners to form a fragrant ground cover. Irresistible to hummingbirds."
+    notes: "Spreads by runners to form a fragrant ground cover. Irresistible to hummingbirds.",
     zones: [8, 10]
   },
   {
@@ -1571,7 +1571,7 @@ const plants = [
     color: ["blue", "purple"],
     difficulty: "easy",
     region: "california",
-    notes: "Intensely fragrant shrubby sage. Extremely drought tolerant once established."
+    notes: "Intensely fragrant shrubby sage. Extremely drought tolerant once established.",
     zones: [8, 10]
   },
   {
@@ -1585,7 +1585,7 @@ const plants = [
     color: ["blue", "white"],
     difficulty: "moderate",
     region: "california",
-    notes: "Spectacular spring bloom, vital for native bees. Dislikes summer water once established — do not irrigate."
+    notes: "Spectacular spring bloom, vital for native bees. Dislikes summer water once established — do not irrigate.",
     zones: [7, 10]
   },
   {
@@ -1598,7 +1598,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"],
     difficulty: "easy",
-    region: "california"
+    region: "california",
     zones: [7, 10]
   },
   {
@@ -1612,7 +1612,7 @@ const plants = [
     color: ["orange", "yellow"],
     difficulty: "easy",
     region: "california",
-    notes: "Long blooming season. Tolerates drought and poor soil. Excellent hummingbird plant."
+    notes: "Long blooming season. Tolerates drought and poor soil. Excellent hummingbird plant.",
     zones: [7, 10]
   },
   {
@@ -1626,7 +1626,7 @@ const plants = [
     color: ["white", "pink"],
     difficulty: "easy",
     region: "california",
-    notes: "One of the most important pollinator plants in California. Blooms age to rusty red — beautiful year-round."
+    notes: "One of the most important pollinator plants in California. Blooms age to rusty red — beautiful year-round.",
     zones: [7, 11]
   },
   {
@@ -1640,7 +1640,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "california",
-    notes: "Bold architectural grass. Provides dramatic structure and important bird habitat."
+    notes: "Bold architectural grass. Provides dramatic structure and important bird habitat.",
     zones: [7, 10]
   },
   {
@@ -1653,7 +1653,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple", "blue"],
     difficulty: "easy",
-    region: "california"
+    region: "california",
     zones: [7, 9]
   },
   {
@@ -1667,7 +1667,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "california",
-    notes: "State grass of California. Deep roots make it extremely drought tolerant and great for erosion control."
+    notes: "State grass of California. Deep roots make it extremely drought tolerant and great for erosion control.",
     zones: [8, 10]
   },
   {
@@ -1681,7 +1681,7 @@ const plants = [
     color: ["blue", "purple"],
     difficulty: "easy",
     region: "california",
-    notes: "Fast-growing annual that fixes nitrogen. Direct sow in fall — puts on a spectacular spring show."
+    notes: "Fast-growing annual that fixes nitrogen. Direct sow in fall — puts on a spectacular spring show.",
     zones: [8, 10]
   },
   {
@@ -1694,7 +1694,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "yellow"],
     difficulty: "easy",
-    region: "california"
+    region: "california",
     zones: [3, 9]
   },
   {
@@ -1708,7 +1708,7 @@ const plants = [
     color: ["white", "yellow"],
     difficulty: "moderate",
     region: "california",
-    notes: "Enormous fried-egg flowers are unforgettable. Spreads aggressively by underground runners — give it space."
+    notes: "Enormous fried-egg flowers are unforgettable. Spreads aggressively by underground runners — give it space.",
     zones: [7, 10]
   },
   {
@@ -1722,7 +1722,7 @@ const plants = [
     color: ["white", "pink"],
     difficulty: "easy",
     region: "california",
-    notes: "Fast-growing vine. Excellent for covering fences and trellises with minimal water."
+    notes: "Fast-growing vine. Excellent for covering fences and trellises with minimal water.",
     zones: [8, 10]
   },
 
@@ -1738,7 +1738,7 @@ const plants = [
     color: ["white"],
     difficulty: "challenging",
     region: "west",
-    notes: "Icon of the Pacific Northwest woodland. Very slow growing — buy nursery propagated only, never wild-collected."
+    notes: "Icon of the Pacific Northwest woodland. Very slow growing — buy nursery propagated only, never wild-collected.",
     zones: [5, 8]
   },
   {
@@ -1752,7 +1752,7 @@ const plants = [
     color: ["white", "pink"],
     difficulty: "easy",
     region: "west",
-    notes: "Lush, clover-like ground cover for deep shade. Spreads reliably under conifers where little else grows."
+    notes: "Lush, clover-like ground cover for deep shade. Spreads reliably under conifers where little else grows.",
     zones: [5, 9]
   },
   {
@@ -1766,7 +1766,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "west",
-    notes: "The backbone of Pacific Northwest shade gardens. Evergreen, tough, and beautiful year-round."
+    notes: "The backbone of Pacific Northwest shade gardens. Evergreen, tough, and beautiful year-round.",
     zones: [6, 9]
   },
   {
@@ -1780,7 +1780,7 @@ const plants = [
     color: ["white"],
     difficulty: "easy",
     region: "west",
-    notes: "Spreads to form a dense, weed-suppressing carpet in moist shade. Red berries in fall."
+    notes: "Spreads to form a dense, weed-suppressing carpet in moist shade. Red berries in fall.",
     zones: [4, 8]
   },
   {
@@ -1794,7 +1794,7 @@ const plants = [
     color: ["red", "yellow"],
     difficulty: "easy",
     region: "west",
-    notes: "Essential hummingbird plant. Self-seeds freely in woodland gardens."
+    notes: "Essential hummingbird plant. Self-seeds freely in woodland gardens.",
     zones: [3, 9]
   },
   {
@@ -1808,7 +1808,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "west",
-    notes: "Distinctive two-tiered fronds. Evergreen and reliable in moist shade — a Pacific Northwest classic."
+    notes: "Distinctive two-tiered fronds. Evergreen and reliable in moist shade — a Pacific Northwest classic.",
     zones: [6, 9]
   },
   {
@@ -1822,7 +1822,7 @@ const plants = [
     color: ["white"],
     difficulty: "moderate",
     region: "midwest",
-    notes: "Miniature dogwood relative. White flowers followed by bright red berries. Needs cool, acidic, moist soil. Found across northern forests from Pacific Northwest to Great Lakes."
+    notes: "Miniature dogwood relative. White flowers followed by bright red berries. Needs cool, acidic, moist soil. Found across northern forests from Pacific Northwest to Great Lakes.",
     zones: [2, 7]
   },
   {
@@ -1836,7 +1836,7 @@ const plants = [
     color: ["white"],
     difficulty: "easy",
     region: "west",
-    notes: "Western counterpart to Eastern foamflower. Delicate white spires in spring shade."
+    notes: "Western counterpart to Eastern foamflower. Delicate white spires in spring shade.",
     zones: [4, 8]
   },
   {
@@ -1850,7 +1850,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "moderate",
     region: "west",
-    notes: "Elegant fan-shaped fronds, similar to eastern Maidenhair. Needs consistent moisture and humidity."
+    notes: "Elegant fan-shaped fronds, similar to eastern Maidenhair. Needs consistent moisture and humidity.",
     zones: [5, 9]
   },
 
@@ -1866,7 +1866,7 @@ const plants = [
     color: ["yellow", "red"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Distinctive thimble-shaped center cone. Extremely drought tolerant once established."
+    notes: "Distinctive thimble-shaped center cone. Extremely drought tolerant once established.",
     zones: [3, 9]
   },
   {
@@ -1879,7 +1879,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "purple"],
     difficulty: "easy",
-    region: "midwest"
+    region: "midwest",
     zones: [3, 8]
   },
   {
@@ -1893,7 +1893,7 @@ const plants = [
     color: ["purple", "pink"],
     difficulty: "easy",
     region: "midwest",
-    notes: "One of the most beloved and versatile native plants. Seedheads feed goldfinches through winter."
+    notes: "One of the most beloved and versatile native plants. Seedheads feed goldfinches through winter.",
     zones: [3, 9]
   },
   {
@@ -1907,7 +1907,7 @@ const plants = [
     color: ["purple", "pink"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Fixes nitrogen and thrives in poor, dry soil. Important for native bees."
+    notes: "Fixes nitrogen and thrives in poor, dry soil. Important for native bees.",
     zones: [3, 8]
   },
   {
@@ -1921,7 +1921,7 @@ const plants = [
     color: ["white"],
     difficulty: "moderate",
     region: "midwest",
-    notes: "Long-lived prairie staple. Slow to establish but spectacular once settled — do not move after planting."
+    notes: "Long-lived prairie staple. Slow to establish but spectacular once settled — do not move after planting.",
     zones: [3, 9]
   },
   {
@@ -1935,7 +1935,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Iconic prairie grass with distinctive comb-like seedheads. Extremely drought and cold tolerant."
+    notes: "Iconic prairie grass with distinctive comb-like seedheads. Extremely drought and cold tolerant.",
     zones: [3, 9]
   },
   {
@@ -1949,7 +1949,7 @@ const plants = [
     color: ["purple", "blue"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Indicator species of high-quality prairie. Deep-rooted and extremely drought tolerant once established."
+    notes: "Indicator species of high-quality prairie. Deep-rooted and extremely drought tolerant once established.",
     zones: [2, 8]
   },
   {
@@ -1963,7 +1963,7 @@ const plants = [
     color: ["pink", "lavender"],
     difficulty: "moderate",
     region: "midwest",
-    notes: "Distinctive swept-back petals like a shooting star. Spring ephemeral — goes dormant by summer."
+    notes: "Distinctive swept-back petals like a shooting star. Spring ephemeral — goes dormant by summer.",
     zones: [4, 8]
   },
   {
@@ -1977,7 +1977,7 @@ const plants = [
     color: ["lavender", "pink"],
     difficulty: "easy",
     region: "midwest",
-    notes: "One of the showiest native penstemons. Large tubular flowers in early summer."
+    notes: "One of the showiest native penstemons. Large tubular flowers in early summer.",
     zones: [3, 7]
   },
   {
@@ -1990,7 +1990,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"],
     difficulty: "easy",
-    region: "midwest"
+    region: "midwest",
     zones: [4, 9]
   },
   {
@@ -2004,7 +2004,7 @@ const plants = [
     color: ["yellow"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Leaves orient north-south, historically used for navigation. Deep taproot — do not transplant once established."
+    notes: "Leaves orient north-south, historically used for navigation. Deep taproot — do not transplant once established.",
     zones: [3, 8]
   },
   {
@@ -2018,7 +2018,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Fragrant blooms and stunning fall color. One of the most beautiful native grasses."
+    notes: "Fragrant blooms and stunning fall color. One of the most beautiful native grasses.",
     zones: [3, 9]
   },
   {
@@ -2032,7 +2032,7 @@ const plants = [
     color: ["pink", "lavender"],
     difficulty: "easy",
     region: "midwest",
-    notes: "The most important monarch butterfly host plant in the midwest. Spreads by rhizome — give it room."
+    notes: "The most important monarch butterfly host plant in the midwest. Spreads by rhizome — give it room.",
     zones: [3, 9]
   },
   {
@@ -2046,7 +2046,7 @@ const plants = [
     color: ["red", "yellow", "orange"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Vivid annual that self-seeds reliably. One of the longest-blooming native wildflowers."
+    notes: "Vivid annual that self-seeds reliably. One of the longest-blooming native wildflowers.",
     zones: [2, 11]
   },
 
@@ -2062,7 +2062,7 @@ const plants = [
     color: ["red"],
     difficulty: "easy",
     region: "southwest",
-    notes: "Brilliant red tubes are a hummingbird magnet. One of the most reliable and showy desert penstemons."
+    notes: "Brilliant red tubes are a hummingbird magnet. One of the most reliable and showy desert penstemons.",
     zones: [5, 9]
   },
   {
@@ -2075,7 +2075,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"],
     difficulty: "easy",
-    region: "southwest"
+    region: "southwest",
     zones: [7, 10]
   },
   {
@@ -2089,7 +2089,7 @@ const plants = [
     color: ["yellow"],
     difficulty: "easy",
     region: "southwest",
-    notes: "Architectural rosette of blue-grey leaves. Blooms once after many years then dies, leaving offsets."
+    notes: "Architectural rosette of blue-grey leaves. Blooms once after many years then dies, leaving offsets.",
     zones: [6, 11]
   },
   {
@@ -2103,7 +2103,7 @@ const plants = [
     color: ["yellow"],
     difficulty: "easy",
     region: "southwest",
-    notes: "Iconic Sonoran Desert shrub with silver foliage and golden flowers. Drought and heat tolerant."
+    notes: "Iconic Sonoran Desert shrub with silver foliage and golden flowers. Drought and heat tolerant.",
     zones: [8, 11]
   },
   {
@@ -2117,7 +2117,7 @@ const plants = [
     color: ["orange", "pink"],
     difficulty: "easy",
     region: "southwest",
-    notes: "Brilliant orange blooms pop against silver-green foliage. Beloved by specialist globemallow bees."
+    notes: "Brilliant orange blooms pop against silver-green foliage. Beloved by specialist globemallow bees.",
     zones: [5, 11]
   },
   {
@@ -2131,7 +2131,7 @@ const plants = [
     color: ["yellow"],
     difficulty: "easy",
     region: "southwest",
-    notes: "Blooms nearly year-round in warm climates. Silver woolly foliage reflects heat beautifully."
+    notes: "Blooms nearly year-round in warm climates. Silver woolly foliage reflects heat beautifully.",
     zones: [7, 11]
   },
   {
@@ -2144,7 +2144,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "purple"],
     difficulty: "easy",
-    region: "southwest"
+    region: "southwest",
     zones: [6, 10]
   },
   {
@@ -2158,7 +2158,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "southwest",
-    notes: "Graceful fountain-shaped grass. Extremely tough and adaptable — works in desert and coastal gardens."
+    notes: "Graceful fountain-shaped grass. Extremely tough and adaptable — works in desert and coastal gardens.",
     zones: [6, 10]
   },
   {
@@ -2172,7 +2172,7 @@ const plants = [
     color: ["yellow"],
     difficulty: "easy",
     region: "southwest",
-    notes: "The dominant shrub of the Mojave and Sonoran Deserts. The iconic desert scent after rain. Extremely long-lived."
+    notes: "The dominant shrub of the Mojave and Sonoran Deserts. The iconic desert scent after rain. Extremely long-lived.",
     zones: [8, 11]
   },
   {
@@ -2185,7 +2185,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red", "yellow", "orange"],
     difficulty: "easy",
-    region: "southwest"
+    region: "southwest",
     zones: [5, 9]
   },
   {
@@ -2199,7 +2199,7 @@ const plants = [
     color: ["purple", "pink"],
     difficulty: "easy",
     region: "southwest",
-    notes: "Trailing ground cover with vivid magenta-purple blooms. Deep taproot makes it very drought tolerant."
+    notes: "Trailing ground cover with vivid magenta-purple blooms. Deep taproot makes it very drought tolerant.",
     zones: [3, 9]
   },
   {
@@ -2213,7 +2213,7 @@ const plants = [
     color: ["white", "purple"],
     difficulty: "easy",
     region: "southwest",
-    notes: "Dramatic architectural plant. Flowers are pollinated exclusively by yucca moths — a fascinating relationship."
+    notes: "Dramatic architectural plant. Flowers are pollinated exclusively by yucca moths — a fascinating relationship.",
     zones: [5, 10]
   },
 
@@ -2231,7 +2231,7 @@ const plants = [
     region: "california",
     clayTolerance: "fair",
     bloomSeason: "Winter–Spring",
-    notes: "Iconic California shrub with beautiful smooth red bark. Needs excellent drainage — does not tolerate wet roots. Huge variety of sizes available."
+    notes: "Iconic California shrub with beautiful smooth red bark. Needs excellent drainage — does not tolerate wet roots. Huge variety of sizes available.",
     zones: [7, 10]
   },
   {
@@ -2247,7 +2247,7 @@ const plants = [
     region: "california",
     clayTolerance: "excellent",
     bloomSeason: "Late Spring",
-    notes: "Hollywood's namesake plant. White summer flowers followed by brilliant red winter berries — vital wildlife food source. Very clay tolerant."
+    notes: "Hollywood's namesake plant. White summer flowers followed by brilliant red winter berries — vital wildlife food source. Very clay tolerant.",
     zones: [7, 10]
   },
   {
@@ -2263,7 +2263,7 @@ const plants = [
     region: "california",
     clayTolerance: "fair",
     bloomSeason: "Late Summer–Fall",
-    notes: "Blazing red-orange blooms in late summer when most plants are done. Essential hummingbird plant for fall migration."
+    notes: "Blazing red-orange blooms in late summer when most plants are done. Essential hummingbird plant for fall migration.",
     zones: [7, 10]
   },
   {
@@ -2279,7 +2279,7 @@ const plants = [
     region: "california",
     clayTolerance: "fair",
     bloomSeason: "Summer",
-    notes: "Intensely fragrant mint-family plant. Covered in butterflies and native bees when in bloom."
+    notes: "Intensely fragrant mint-family plant. Covered in butterflies and native bees when in bloom.",
     zones: [7, 10]
   },
   // --- Midwest Groundcovers ---
@@ -2295,7 +2295,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Summer",
-    notes: "Evergreen ground cover with bright red berries and wintergreen-scented leaves. Needs acidic soil."
+    notes: "Evergreen ground cover with bright red berries and wintergreen-scented leaves. Needs acidic soil.",
     zones: [3, 8]
   },
   {
@@ -2310,7 +2310,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Rare and slow-growing — some colonies are thousands of years old. Edible blue-black berries. Needs acidic soil."
+    notes: "Rare and slow-growing — some colonies are thousands of years old. Edible blue-black berries. Needs acidic soil.",
     zones: [5, 8]
   },
   {
@@ -2324,7 +2324,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Tough, low-spreading evergreen ground cover. Turns purplish in winter. Excellent for slopes and erosion control."
+    notes: "Tough, low-spreading evergreen ground cover. Turns purplish in winter. Excellent for slopes and erosion control.",
     zones: [3, 9]
   },
   {
@@ -2339,7 +2339,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Tiny but charming woodland carpeter. Spreads by rhizome to form dense colonies. Red speckled berries in fall."
+    notes: "Tiny but charming woodland carpeter. Spreads by rhizome to form dense colonies. Red speckled berries in fall.",
     zones: [2, 7]
   },
   {
@@ -2354,7 +2354,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Summer",
-    notes: "Trailing evergreen with paired white flowers and bright red berries. A classic of the eastern woodland floor."
+    notes: "Trailing evergreen with paired white flowers and bright red berries. A classic of the eastern woodland floor.",
     zones: [3, 9]
   },
   {
@@ -2369,7 +2369,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Low-growing evergreen shrub with holly-like leaves. Yellow spring flowers followed by blue-purple berries. Good deer resistance."
+    notes: "Low-growing evergreen shrub with holly-like leaves. Yellow spring flowers followed by blue-purple berries. Good deer resistance.",
     zones: [5, 8]
   },
   {
@@ -2384,7 +2384,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Large umbrella-like leaves create a lush tropical look. Fruit is edible when fully ripe but all other parts are toxic."
+    notes: "Large umbrella-like leaves create a lush tropical look. Fruit is edible when fully ripe but all other parts are toxic.",
     zones: [3, 8]
   },
   {
@@ -2399,7 +2399,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Summer",
-    notes: "Also known as Potentilla tridentata. Tough, low ground cover for poor, rocky, or sandy soils. Reliable red fall color."
+    notes: "Also known as Potentilla tridentata. Tough, low ground cover for poor, rocky, or sandy soils. Reliable red fall color.",
     zones: [2, 7]
   },
   {
@@ -2414,7 +2414,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring–Summer",
-    notes: "Evergreen ground cover with edible red berries — the lingonberry of Scandinavian cooking. Needs acidic, well-drained soil."
+    notes: "Evergreen ground cover with edible red berries — the lingonberry of Scandinavian cooking. Needs acidic, well-drained soil.",
     zones: [2, 6]
   },
 
@@ -2431,7 +2431,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Fall",
-    notes: "Clouds of tiny white flowers in fall — one of the most important late-season nectar sources for migrating butterflies."
+    notes: "Clouds of tiny white flowers in fall — one of the most important late-season nectar sources for migrating butterflies.",
     zones: [3, 8]
   },
   {
@@ -2445,7 +2445,7 @@ const plants = [
     color: ["blue", "purple"],
     difficulty: "easy",
     region: "midwest",
-    bloomSeason: "Summer"
+    bloomSeason: "Summer",
     zones: [3, 8]
   },
   {
@@ -2460,7 +2460,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Inconspicuous yellow-green flowers but stunning blue berries in fall. All parts are toxic — admire, don't eat."
+    notes: "Inconspicuous yellow-green flowers but stunning blue berries in fall. All parts are toxic — admire, don't eat.",
     zones: [3, 8]
   },
   {
@@ -2474,7 +2474,7 @@ const plants = [
     color: ["yellow"],
     difficulty: "easy",
     region: "midwest",
-    bloomSeason: "Spring–Summer"
+    bloomSeason: "Spring–Summer",
     zones: [3, 9]
   },
   {
@@ -2489,7 +2489,7 @@ const plants = [
     difficulty: "challenging",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "A native orchid — spectacular but demanding. Needs specific soil fungi to survive. Buy only nursery propagated, never wild-collected. Deeply rewarding for patient gardeners."
+    notes: "A native orchid — spectacular but demanding. Needs specific soil fungi to survive. Buy only nursery propagated, never wild-collected. Deeply rewarding for patient gardeners.",
     zones: [3, 7]
   },
   {
@@ -2504,7 +2504,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Late Summer–Fall",
-    notes: "Valuable late-season pollinator plant. Toxic if ingested — historically caused 'milk sickness' when cows grazed on it."
+    notes: "Valuable late-season pollinator plant. Toxic if ingested — historically caused 'milk sickness' when cows grazed on it.",
     zones: [3, 8]
   },
   {
@@ -2519,7 +2519,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Nodding pink flowers transform into feathery silver seed plumes — the 'smoke' effect is unforgettable."
+    notes: "Nodding pink flowers transform into feathery silver seed plumes — the 'smoke' effect is unforgettable.",
     zones: [3, 7]
   },
   {
@@ -2534,7 +2534,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Tiny but charming — forms carpets of pale blue four-petaled flowers in spring. Often naturalizes in lawns."
+    notes: "Tiny but charming — forms carpets of pale blue four-petaled flowers in spring. Often naturalizes in lawns.",
     zones: [3, 8]
   },
   {
@@ -2549,7 +2549,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Early Spring",
-    notes: "One of the earliest spring wildflowers, blooming before its leaves fully emerge. A true woodland gem."
+    notes: "One of the earliest spring wildflowers, blooming before its leaves fully emerge. A true woodland gem.",
     zones: [4, 8]
   },
   {
@@ -2564,7 +2564,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Summer",
-    notes: "Upward-facing scarlet-orange flowers unlike most nodding lilies. Declining in the wild — a meaningful garden addition."
+    notes: "Upward-facing scarlet-orange flowers unlike most nodding lilies. Declining in the wild — a meaningful garden addition.",
     zones: [3, 7]
   },
   {
@@ -2579,7 +2579,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring–Summer",
-    notes: "Host plant for the endangered Karner blue butterfly. Fixes nitrogen. Direct sow in fall for best results."
+    notes: "Host plant for the endangered Karner blue butterfly. Fixes nitrogen. Direct sow in fall for best results.",
     zones: [3, 8]
   },
   {
@@ -2594,7 +2594,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Delicate wands of tiny snowflake-like flowers. A quiet but lovely addition to the woodland garden."
+    notes: "Delicate wands of tiny snowflake-like flowers. A quiet but lovely addition to the woodland garden.",
     zones: [3, 8]
   },
   {
@@ -2609,7 +2609,7 @@ const plants = [
     difficulty: "challenging",
     region: "midwest",
     bloomSeason: "Summer",
-    notes: "Slow-growing woodland plant with significant medicinal and cultural value. Heavily over-harvested — buy only nursery propagated. Needs rich, deep shade and patience."
+    notes: "Slow-growing woodland plant with significant medicinal and cultural value. Heavily over-harvested — buy only nursery propagated. Needs rich, deep shade and patience.",
     zones: [3, 8]
   },
   {
@@ -2624,7 +2624,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Summer",
-    notes: "Tall prairie stalwart with drooping yellow petals around a tall grey cone. Seeds are important winter bird food."
+    notes: "Tall prairie stalwart with drooping yellow petals around a tall grey cone. Seeds are important winter bird food.",
     zones: [3, 8]
   },
   {
@@ -2639,7 +2639,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Summer–Fall",
-    notes: "Can reach 8 feet in moist, rich soil. Bold back-of-border plant — give it room to spread."
+    notes: "Can reach 8 feet in moist, rich soil. Bold back-of-border plant — give it room to spread.",
     zones: [3, 9]
   },
   {
@@ -2653,7 +2653,7 @@ const plants = [
     color: ["yellow"],
     difficulty: "easy",
     region: "midwest",
-    bloomSeason: "Fall"
+    bloomSeason: "Fall",
     zones: [3, 9]
   },
   {
@@ -2668,7 +2668,7 @@ const plants = [
     difficulty: "challenging",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Named for its nodding, bent flower stalk. Like all trilliums, very slow growing — buy nursery propagated only."
+    notes: "Named for its nodding, bent flower stalk. Like all trilliums, very slow growing — buy nursery propagated only.",
     zones: [4, 8]
   },
   {
@@ -2683,7 +2683,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Deep maroon-red stalkless flowers sit directly on mottled leaves. Unusual and striking in the spring woodland."
+    notes: "Deep maroon-red stalkless flowers sit directly on mottled leaves. Unusual and striking in the spring woodland.",
     zones: [4, 8]
   },
   {
@@ -2698,7 +2698,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "One of the showiest native violets with large pansy-like flowers. Needs lean, sandy or rocky soil — dislikes rich garden beds."
+    notes: "One of the showiest native violets with large pansy-like flowers. Needs lean, sandy or rocky soil — dislikes rich garden beds.",
     zones: [4, 8]
   },
 
@@ -2715,7 +2715,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "White spring flowers give way to clusters of glossy red berries. Striking but toxic — not for gardens with young children."
+    notes: "White spring flowers give way to clusters of glossy red berries. Striking but toxic — not for gardens with young children.",
     zones: [3, 7]
   },
   {
@@ -2730,7 +2730,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Delicate spring ephemeral that carpets the woodland floor briefly then vanishes by summer."
+    notes: "Delicate spring ephemeral that carpets the woodland floor briefly then vanishes by summer.",
     zones: [3, 8]
   },
   {
@@ -2745,7 +2745,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring–Summer",
-    notes: "A true aquatic edge plant — needs boggy soil or shallow water. White spathe flowers followed by red berries. All parts are toxic."
+    notes: "A true aquatic edge plant — needs boggy soil or shallow water. White spathe flowers followed by red berries. All parts are toxic.",
     zones: [2, 7]
   },
   {
@@ -2760,7 +2760,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring–Summer",
-    notes: "Subtle yellow-green flowers but spectacular metallic blue berries in late summer. Needs cool, acidic woodland conditions."
+    notes: "Subtle yellow-green flowers but spectacular metallic blue berries in late summer. Needs cool, acidic woodland conditions.",
     zones: [3, 7]
   },
   {
@@ -2775,7 +2775,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Spring ephemeral with vivid blue-purple spires. Goes dormant by summer. All parts toxic if ingested."
+    notes: "Spring ephemeral with vivid blue-purple spires. Goes dormant by summer. All parts toxic if ingested.",
     zones: [4, 8]
   },
   {
@@ -2790,7 +2790,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Spring ephemeral with fragrant white heart-shaped flowers. Named for its yellow underground tubers that resemble corn kernels."
+    notes: "Spring ephemeral with fragrant white heart-shaped flowers. Named for its yellow underground tubers that resemble corn kernels.",
     zones: [3, 8]
   },
   {
@@ -2805,7 +2805,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Early Spring",
-    notes: "Unmistakable pantaloon-shaped white flowers in early spring. Spring ephemeral — gone by summer."
+    notes: "Unmistakable pantaloon-shaped white flowers in early spring. Spring ephemeral — gone by summer.",
     zones: [3, 8]
   },
   {
@@ -2820,7 +2820,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Summer–Fall",
-    notes: "Distinguished from Joe-Pye Weed by its spotted purple stems. A monarch butterfly magnet in late summer."
+    notes: "Distinguished from Joe-Pye Weed by its spotted purple stems. A monarch butterfly magnet in late summer.",
     zones: [3, 8]
   },
   {
@@ -2835,7 +2835,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Late Summer–Fall",
-    notes: "Flat-topped white flowers are a late-season pollinator magnet. Historically used in folk medicine for fevers."
+    notes: "Flat-topped white flowers are a late-season pollinator magnet. Historically used in folk medicine for fevers.",
     zones: [3, 8]
   },
   {
@@ -2850,7 +2850,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Fall",
-    notes: "Flowers never fully open — bumblebees are strong enough to force their way in. A fascinating and beautiful late-season plant."
+    notes: "Flowers never fully open — bumblebees are strong enough to force their way in. A fascinating and beautiful late-season plant.",
     zones: [4, 8]
   },
   {
@@ -2865,7 +2865,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Early Spring",
-    notes: "One of the earliest spring wildflowers, blooming through snow. Round-lobed leaves distinguish it from Sharp-lobed Hepatica."
+    notes: "One of the earliest spring wildflowers, blooming through snow. Round-lobed leaves distinguish it from Sharp-lobed Hepatica.",
     zones: [3, 8]
   },
   {
@@ -2880,7 +2880,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Summer–Fall",
-    notes: "Dinner plate-sized flowers — some of the largest of any native plant. Dies back to ground in winter but returns reliably."
+    notes: "Dinner plate-sized flowers — some of the largest of any native plant. Dies back to ground in winter but returns reliably.",
     zones: [4, 9]
   },
   {
@@ -2894,7 +2894,7 @@ const plants = [
     color: ["lavender", "purple"],
     difficulty: "easy",
     region: "midwest",
-    bloomSeason: "Spring–Summer"
+    bloomSeason: "Spring–Summer",
     zones: [3, 8]
   },
   {
@@ -2909,7 +2909,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Summer",
-    notes: "Fragrant cylindrical flower heads distinguish it from Summer Phlox. More mildew-resistant than many garden phlox."
+    notes: "Fragrant cylindrical flower heads distinguish it from Summer Phlox. More mildew-resistant than many garden phlox.",
     zones: [3, 8]
   },
   {
@@ -2923,7 +2923,7 @@ const plants = [
     color: ["pink", "lavender"],
     difficulty: "easy",
     region: "midwest",
-    bloomSeason: "Summer"
+    bloomSeason: "Summer",
     zones: [3, 9]
   },
   {
@@ -2938,7 +2938,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Summer",
-    notes: "Tall, airy plant with purple-tinged stems and delicate foliage. Beautiful back-of-border plant for moist sites."
+    notes: "Tall, airy plant with purple-tinged stems and delicate foliage. Beautiful back-of-border plant for moist sites.",
     zones: [3, 8]
   },
   {
@@ -2953,7 +2953,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Summer",
-    notes: "One of the tallest native perennials — fluffy white flower clusters on towering stems. Striking at the back of a border."
+    notes: "One of the tallest native perennials — fluffy white flower clusters on towering stems. Striking at the back of a border.",
     zones: [3, 8]
   },
 
@@ -2970,7 +2970,7 @@ const plants = [
     difficulty: "moderate",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "Delicate star-shaped white flowers on thread-thin stems. Needs cool, acidic woodland conditions — worth finding the right spot."
+    notes: "Delicate star-shaped white flowers on thread-thin stems. Needs cool, acidic woodland conditions — worth finding the right spot.",
     zones: [3, 7]
   },
   {
@@ -2985,7 +2985,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "One of the best violets for wet or boggy areas. Host plant for fritillary butterflies."
+    notes: "One of the best violets for wet or boggy areas. Host plant for fritillary butterflies.",
     zones: [3, 8]
   },
   {
@@ -3000,7 +3000,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "One of the few yellow-flowered native violets. Excellent for dry to moist woodland shade."
+    notes: "One of the few yellow-flowered native violets. Excellent for dry to moist woodland shade.",
     zones: [3, 8]
   },
   {
@@ -3015,7 +3015,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Spring",
-    notes: "One of the most common and adaptable native violets. Host plant for fritillary butterflies — let it spread."
+    notes: "One of the most common and adaptable native violets. Host plant for fritillary butterflies — let it spread.",
     zones: [3, 8]
   },
 
@@ -3031,7 +3031,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Fragrant iris-like foliage for pond edges and rain gardens. Note: use Acorus americanus (native) not Acorus calamus (introduced Asian form)."
+    notes: "Fragrant iris-like foliage for pond edges and rain gardens. Note: use Acorus americanus (native) not Acorus calamus (introduced Asian form).",
     zones: [3, 8]
   },
   {
@@ -3045,7 +3045,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Turns a warm copper-orange in fall and winter — beautiful in mass plantings. Thrives in poor soils."
+    notes: "Turns a warm copper-orange in fall and winter — beautiful in mass plantings. Thrives in poor soils.",
     zones: [5, 9]
   },
   {
@@ -3059,7 +3059,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Wispy purple-tinged seed heads catch the light beautifully. Extremely drought tolerant."
+    notes: "Wispy purple-tinged seed heads catch the light beautifully. Extremely drought tolerant.",
     zones: [5, 9]
   },
   {
@@ -3073,7 +3073,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "The original Great Plains turf grass — an excellent low-mow, drought-tolerant lawn alternative. Goes dormant and tan in winter."
+    notes: "The original Great Plains turf grass — an excellent low-mow, drought-tolerant lawn alternative. Goes dormant and tan in winter.",
     zones: [3, 9]
   },
   {
@@ -3087,7 +3087,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Distinctive palm-like leaf arrangement at stem tips. One of the most ornamental native sedges."
+    notes: "Distinctive palm-like leaf arrangement at stem tips. One of the most ornamental native sedges.",
     zones: [3, 8]
   },
   {
@@ -3101,7 +3101,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "One of the best native lawn alternatives for dry shade under trees. Fine-textured, low-growing, and deer resistant."
+    notes: "One of the best native lawn alternatives for dry shade under trees. Fine-textured, low-growing, and deer resistant.",
     zones: [3, 8]
   },
   {
@@ -3115,7 +3115,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Broad, strap-like leaves make it one of the most distinctive sedges. Evergreen in mild winters."
+    notes: "Broad, strap-like leaves make it one of the most distinctive sedges. Evergreen in mild winters.",
     zones: [3, 8]
   },
   {
@@ -3129,7 +3129,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Blue-green broad leaves form tidy clumps in deep shade. Tolerates dry shade better than most sedges."
+    notes: "Blue-green broad leaves form tidy clumps in deep shade. Tolerates dry shade better than most sedges.",
     zones: [3, 8]
   },
   {
@@ -3143,7 +3143,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Flat, oat-like seed heads dangle and shimmer in the breeze. One of the best ornamental grasses for shade. Can self-seed prolifically."
+    notes: "Flat, oat-like seed heads dangle and shimmer in the breeze. One of the best ornamental grasses for shade. Can self-seed prolifically.",
     zones: [5, 9]
   },
   {
@@ -3157,7 +3157,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Airy golden seed clouds float above fine-textured foliage. One of the few ornamental grasses that tolerates wet soils and part shade."
+    notes: "Airy golden seed clouds float above fine-textured foliage. One of the few ornamental grasses that tolerates wet soils and part shade.",
     zones: [4, 9]
   },
   {
@@ -3171,7 +3171,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Cool-season grass with attractive blue-green foliage. Good for stabilizing slopes and shaded woodland edges."
+    notes: "Cool-season grass with attractive blue-green foliage. Good for stabilizing slopes and shaded woodland edges.",
     zones: [4, 9]
   },
   {
@@ -3186,7 +3186,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Late Summer–Fall",
-    notes: "Enormous rosy-purple seed clouds in late summer create a haze effect in mass plantings. Thrives in poor, sandy soil."
+    notes: "Enormous rosy-purple seed clouds in late summer create a haze effect in mass plantings. Thrives in poor, sandy soil.",
     zones: [5, 9]
   },
   {
@@ -3200,7 +3200,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Round, glossy green stems are striking in rain gardens and pond edges. Important habitat for wetland birds."
+    notes: "Round, glossy green stems are striking in rain gardens and pond edges. Important habitat for wetland birds.",
     zones: [4, 9]
   },
   {
@@ -3214,7 +3214,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Fluffy, rust-brown seed heads are highly ornamental. Excellent for rain gardens and wet meadows."
+    notes: "Fluffy, rust-brown seed heads are highly ornamental. Excellent for rain gardens and wet meadows.",
     zones: [3, 9]
   },
   {
@@ -3228,7 +3228,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Bold, architectural wetland grass. Can spread aggressively by rhizome — best in naturalized areas or contained plantings."
+    notes: "Bold, architectural wetland grass. Can spread aggressively by rhizome — best in naturalized areas or contained plantings.",
     zones: [4, 9]
   },
   {
@@ -3243,7 +3243,7 @@ const plants = [
     difficulty: "easy",
     region: "midwest",
     bloomSeason: "Summer–Fall",
-    notes: "Deep purple seed heads on arching stems catch the late summer light beautifully."
+    notes: "Deep purple seed heads on arching stems catch the late summer light beautifully.",
     zones: [5, 9]
   },
   {
@@ -3257,7 +3257,7 @@ const plants = [
     color: ["foliage"],
     difficulty: "easy",
     region: "midwest",
-    notes: "Important wildlife plant — nesting material for birds, food for muskrats. Can spread aggressively in still water. Note: may hybridize with introduced Typha species."
+    notes: "Important wildlife plant — nesting material for birds, food for muskrats. Can spread aggressively in still water. Note: may hybridize with introduced Typha species.",
     zones: [3, 10]
   },
 
@@ -3271,7 +3271,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["pink", "purple"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring",
-    notes: "Fragrant magenta-pink blooms carpet desert floors after rain. Excellent for sandy soils."
+    notes: "Fragrant magenta-pink blooms carpet desert floors after rain. Excellent for sandy soils.",
     zones: [7, 11]
   },
   {
@@ -3282,7 +3282,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["yellow", "orange"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 10]
   },
   {
@@ -3294,7 +3294,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["white"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Summer",
-    notes: "Large papery white flowers on spiny stems. Thrives in disturbed and rocky soils."
+    notes: "Large papery white flowers on spiny stems. Thrives in disturbed and rocky soils.",
     zones: [7, 10]
   },
   {
@@ -3306,7 +3306,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["purple", "pink"], difficulty: "moderate", region: "southwest",
     bloomSeason: "Spring",
-    notes: "Hemiparasitic — attaches to roots of nearby plants for nutrients. Best direct-sown with host grasses."
+    notes: "Hemiparasitic — attaches to roots of nearby plants for nutrients. Best direct-sown with host grasses.",
     zones: [7, 10]
   },
   {
@@ -3317,7 +3317,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 11]
   },
   {
@@ -3328,7 +3328,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 11]
   },
   {
@@ -3340,7 +3340,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "white"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Summer",
-    notes: "Native thistles are critical for native bees and goldfinches. Often unfairly maligned — this one belongs."
+    notes: "Native thistles are critical for native bees and goldfinches. Often unfairly maligned — this one belongs.",
     zones: [6, 9]
   },
   {
@@ -3351,7 +3351,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 11]
   },
   {
@@ -3362,7 +3362,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["pink", "lavender"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Summer–Fall"
+    bloomSeason: "Summer–Fall",
     zones: [7, 10]
   },
   {
@@ -3373,7 +3373,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["blue", "purple"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 11]
   },
   {
@@ -3384,7 +3384,7 @@ const plants = [
     light: ["sun", "part-shade"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "pink"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring–Fall"
+    bloomSeason: "Spring–Fall",
     zones: [4, 10]
   },
   {
@@ -3395,7 +3395,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["white"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 11]
   },
   {
@@ -3406,7 +3406,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 11]
   },
   {
@@ -3418,7 +3418,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["orange", "yellow"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring",
-    notes: "Desert subspecies of California Poppy — deeper golden-orange color. Mass blooms are a Sonoran Desert spectacle."
+    notes: "Desert subspecies of California Poppy — deeper golden-orange color. Mass blooms are a Sonoran Desert spectacle.",
     zones: [7, 11]
   },
   {
@@ -3429,7 +3429,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring–Fall"
+    bloomSeason: "Spring–Fall",
     zones: [8, 11]
   },
   {
@@ -3440,7 +3440,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["lavender", "white"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 10]
   },
   {
@@ -3452,7 +3452,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
     bloomSeason: "Summer–Fall",
-    notes: "The original native sunflower — seeds are a critical food source for birds. Self-seeds prolifically."
+    notes: "The original native sunflower — seeds are a critical food source for birds. Self-seeds prolifically.",
     zones: [2, 11]
   },
   {
@@ -3464,7 +3464,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["red", "orange"], difficulty: "easy", region: "southwest",
     bloomSeason: "Summer–Fall",
-    notes: "Fast-growing native vine. Red-orange trumpet flowers attract hummingbirds."
+    notes: "Fast-growing native vine. Red-orange trumpet flowers attract hummingbirds.",
     zones: [8, 11]
   },
   {
@@ -3475,7 +3475,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["pink", "lavender"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Summer–Fall"
+    bloomSeason: "Summer–Fall",
     zones: [8, 11]
   },
   {
@@ -3487,7 +3487,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["white", "lavender"], difficulty: "moderate", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Delicate white trumpet flowers on wispy stems. Hummingbird and moth pollinated."
+    notes: "Delicate white trumpet flowers on wispy stems. Hummingbird and moth pollinated.",
     zones: [5, 10]
   },
   {
@@ -3499,7 +3499,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["orange"], difficulty: "easy", region: "southwest",
     bloomSeason: "Summer–Fall",
-    notes: "Brilliant orange blooms after summer monsoon rains — one of the desert's best post-rain shows."
+    notes: "Brilliant orange blooms after summer monsoon rains — one of the desert's best post-rain shows.",
     zones: [8, 11]
   },
   {
@@ -3511,7 +3511,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "california",
     bloomSeason: "Spring",
-    notes: "Forms vast golden carpets in California vernal pools and grasslands. Mass plant for dramatic effect."
+    notes: "Forms vast golden carpets in California vernal pools and grasslands. Mass plant for dramatic effect.",
     zones: [8, 10]
   },
   {
@@ -3523,7 +3523,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["yellow", "white"], difficulty: "easy", region: "california",
     bloomSeason: "Spring",
-    notes: "Cheerful yellow petals tipped with white — one of California's most charming native wildflowers."
+    notes: "Cheerful yellow petals tipped with white — one of California's most charming native wildflowers.",
     zones: [7, 10]
   },
   {
@@ -3535,7 +3535,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Summer",
-    notes: "Sky-blue flowers on airy stems. Each bloom lasts one day but plants produce hundreds over the season."
+    notes: "Sky-blue flowers on airy stems. Each bloom lasts one day but plants produce hundreds over the season.",
     zones: [4, 9]
   },
   {
@@ -3547,7 +3547,7 @@ const plants = [
     type: "annual", native: true, pollinatorValue: true,
     color: ["pink", "purple"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring",
-    notes: "One of the showiest Sonoran Desert wildflowers after a good rain year. Direct sow in fall."
+    notes: "One of the showiest Sonoran Desert wildflowers after a good rain year. Direct sow in fall.",
     zones: [7, 11]
   },
   {
@@ -3558,7 +3558,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "annual", native: true, pollinatorValue: true,
     color: ["white", "yellow"], difficulty: "easy", region: "california",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 10]
   },
 
@@ -3572,7 +3572,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Low trailing plant with clusters of three small flowers that look like a single pinwheel bloom. Fascinating."
+    notes: "Low trailing plant with clusters of three small flowers that look like a single pinwheel bloom. Fascinating.",
     zones: [7, 11]
   },
   {
@@ -3583,7 +3583,7 @@ const plants = [
     light: ["sun"], moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [6, 9]
   },
   {
@@ -3594,7 +3594,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring–Summer"
+    bloomSeason: "Spring–Summer",
     zones: [7, 10]
   },
   {
@@ -3605,7 +3605,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring–Summer"
+    bloomSeason: "Spring–Summer",
     zones: [5, 9]
   },
   {
@@ -3616,7 +3616,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring–Fall"
+    bloomSeason: "Spring–Fall",
     zones: [7, 10]
   },
   {
@@ -3628,7 +3628,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Smells like chocolate in the morning — one of the most delightful native plants of the Southwest."
+    notes: "Smells like chocolate in the morning — one of the most delightful native plants of the Southwest.",
     zones: [4, 9]
   },
   {
@@ -3640,7 +3640,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red", "orange"], difficulty: "challenging", region: "southwest",
     bloomSeason: "Spring–Summer",
-    notes: "Hemiparasitic on the roots of nearby plants. Best established by seed alongside host grasses. Rewarding but demanding."
+    notes: "Hemiparasitic on the roots of nearby plants. Best established by seed alongside host grasses. Rewarding but demanding.",
     zones: [5, 9]
   },
   {
@@ -3652,7 +3652,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red", "orange"], difficulty: "challenging", region: "southwest",
     bloomSeason: "Spring–Summer",
-    notes: "Hemiparasitic — needs nearby shrubs as host plants. Woolly grey foliage is attractive year-round."
+    notes: "Hemiparasitic — needs nearby shrubs as host plants. Woolly grey foliage is attractive year-round.",
     zones: [7, 10]
   },
   {
@@ -3664,7 +3664,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"], difficulty: "easy", region: "southwest",
     bloomSeason: "Fall",
-    notes: "Late-season blue flowers are a critical nectar source for migrating monarch butterflies."
+    notes: "Late-season blue flowers are a critical nectar source for migrating monarch butterflies.",
     zones: [6, 10]
   },
   {
@@ -3676,7 +3676,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"], difficulty: "moderate", region: "southwest",
     bloomSeason: "Summer–Fall",
-    notes: "Enormous white trumpet flowers open at dusk and are pollinated by hawk moths. All parts are extremely toxic — handle with care."
+    notes: "Enormous white trumpet flowers open at dusk and are pollinated by hawk moths. All parts are extremely toxic — handle with care.",
     zones: [7, 11]
   },
   {
@@ -3687,7 +3687,7 @@ const plants = [
     light: ["sun", "part-shade"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue"], difficulty: "moderate", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 10]
   },
   {
@@ -3698,7 +3698,7 @@ const plants = [
     light: ["sun", "part-shade"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"], difficulty: "moderate", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [5, 9]
   },
   {
@@ -3710,7 +3710,7 @@ const plants = [
     type: "bulb", native: true, pollinatorValue: true,
     color: ["blue", "purple"], difficulty: "easy", region: "california",
     bloomSeason: "Spring",
-    notes: "Clusters of purple-blue flowers on bare stems in spring. Corms were an important food source for Indigenous peoples."
+    notes: "Clusters of purple-blue flowers on bare stems in spring. Corms were an important food source for Indigenous peoples.",
     zones: [7, 10]
   },
   {
@@ -3722,7 +3722,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Brilliant sky-blue flowers all season on compact mounding plants. One of the most floriferous native ground covers."
+    notes: "Brilliant sky-blue flowers all season on compact mounding plants. One of the most floriferous native ground covers.",
     zones: [7, 11]
   },
   {
@@ -3734,7 +3734,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "pink"], difficulty: "easy", region: "southwest",
     bloomSeason: "Summer–Fall",
-    notes: "Airy white or pink flowers on wispy stems flutter like butterflies in the breeze. Long blooming season."
+    notes: "Airy white or pink flowers on wispy stems flutter like butterflies in the breeze. Long blooming season.",
     zones: [6, 9]
   },
   {
@@ -3745,7 +3745,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "purple"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring–Fall"
+    bloomSeason: "Spring–Fall",
     zones: [6, 10]
   },
   {
@@ -3757,7 +3757,7 @@ const plants = [
     type: "bulb", native: true, pollinatorValue: true,
     color: ["white"], difficulty: "moderate", region: "southwest",
     bloomSeason: "Spring",
-    notes: "Fragrant white lily of sandy desert washes. Blooms only after sufficient winter rain — spectacular when conditions are right."
+    notes: "Fragrant white lily of sandy desert washes. Blooms only after sufficient winter rain — spectacular when conditions are right.",
     zones: [8, 11]
   },
   {
@@ -3768,7 +3768,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring–Summer"
+    bloomSeason: "Spring–Summer",
     zones: [7, 10]
   },
   {
@@ -3779,7 +3779,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple", "yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Summer–Fall"
+    bloomSeason: "Summer–Fall",
     zones: [5, 9]
   },
   {
@@ -3791,7 +3791,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "yellow"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "White daisy-like flowers with yellow centers bloom nearly nonstop from spring to frost. Extremely heat and drought tolerant."
+    notes: "White daisy-like flowers with yellow centers bloom nearly nonstop from spring to frost. Extremely heat and drought tolerant.",
     zones: [5, 9]
   },
   {
@@ -3803,7 +3803,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "purple"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Magenta flowers open in late afternoon and attract hawk moths. Sprawling and dramatic — gives a lush desert look."
+    notes: "Magenta flowers open in late afternoon and attract hawk moths. Sprawling and dramatic — gives a lush desert look.",
     zones: [4, 9]
   },
   {
@@ -3815,7 +3815,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Summer",
-    notes: "Spreading pink evening primrose. Can naturalize aggressively — best in informal or naturalized areas."
+    notes: "Spreading pink evening primrose. Can naturalize aggressively — best in informal or naturalized areas.",
     zones: [5, 9]
   },
   {
@@ -3827,7 +3827,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Summer",
-    notes: "Large white flowers open at dusk and glow in moonlight. Pollinated by hawk moths."
+    notes: "Large white flowers open at dusk and glow in moonlight. Pollinated by hawk moths.",
     zones: [4, 9]
   },
   {
@@ -3838,7 +3838,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Summer"
+    bloomSeason: "Summer",
     zones: [6, 9]
   },
   {
@@ -3850,7 +3850,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red"], difficulty: "easy", region: "southwest",
     bloomSeason: "Summer",
-    notes: "Tall scarlet spires — one of the most reliable and showy hummingbird plants of the mountain Southwest."
+    notes: "Tall scarlet spires — one of the most reliable and showy hummingbird plants of the mountain Southwest.",
     zones: [3, 9]
   },
   {
@@ -3862,7 +3862,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "white"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Summer",
-    notes: "Fragrant pink-white flowers on tall spires. One of the largest and most striking native penstemons."
+    notes: "Fragrant pink-white flowers on tall spires. One of the largest and most striking native penstemons.",
     zones: [4, 10]
   },
   {
@@ -3874,7 +3874,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring",
-    notes: "Brilliant magenta-pink spires are one of the great spring wildflower spectacles of the Sonoran Desert."
+    notes: "Brilliant magenta-pink spires are one of the great spring wildflower spectacles of the Sonoran Desert.",
     zones: [7, 10]
   },
   {
@@ -3885,7 +3885,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring"
+    bloomSeason: "Spring",
     zones: [7, 10]
   },
   {
@@ -3897,7 +3897,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["pink", "orange"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring",
-    notes: "One of the most spectacular penstemons — coral-pink flowers on stems up to 5 feet. A true showstopper."
+    notes: "One of the most spectacular penstemons — coral-pink flowers on stems up to 5 feet. A true showstopper.",
     zones: [6, 9]
   },
   {
@@ -3909,7 +3909,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow", "purple"], difficulty: "moderate", region: "southwest",
     bloomSeason: "Summer–Fall",
-    notes: "Yellow flowers marked with purple. Produces curved seed pods historically used in Tohono O'odham basket weaving."
+    notes: "Yellow flowers marked with purple. Produces curved seed pods historically used in Tohono O'odham basket weaving.",
     zones: [7, 11]
   },
   {
@@ -3921,7 +3921,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Yellow ray flowers dry to papery white on the plant — beautiful in dried arrangements."
+    notes: "Yellow ray flowers dry to papery white on the plant — beautiful in dried arrangements.",
     zones: [5, 10]
   },
   {
@@ -3932,7 +3932,7 @@ const plants = [
     light: ["sun"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Spring–Fall"
+    bloomSeason: "Spring–Fall",
     zones: [5, 9]
   },
   {
@@ -3943,7 +3943,7 @@ const plants = [
     light: ["sun", "part-shade"], moisture: ["dry", "moist"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue", "purple"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Summer–Fall"
+    bloomSeason: "Summer–Fall",
     zones: [7, 10]
   },
   {
@@ -3955,7 +3955,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["blue"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Compact silver-leafed sage with vivid blue flowers. One of the most reliable and long-blooming native salvias."
+    notes: "Compact silver-leafed sage with vivid blue flowers. One of the most reliable and long-blooming native salvias.",
     zones: [7, 10]
   },
   {
@@ -3967,7 +3967,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["red", "pink"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "One of the most reliable hummingbird plants in the Southwest. Blooms nearly year-round in warm climates."
+    notes: "One of the most reliable hummingbird plants in the Southwest. Blooms nearly year-round in warm climates.",
     zones: [6, 9]
   },
   {
@@ -3979,7 +3979,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Host plant for several native sulphur butterflies. Bright yellow flowers contrast with silvery foliage."
+    notes: "Host plant for several native sulphur butterflies. Bright yellow flowers contrast with silvery foliage.",
     zones: [7, 10]
   },
   {
@@ -3991,7 +3991,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["purple"], difficulty: "easy", region: "california",
     bloomSeason: "Spring–Summer",
-    notes: "Purple flowers resemble a potato blossom — same family. Important for native bees that buzz-pollinate."
+    notes: "Purple flowers resemble a potato blossom — same family. Important for native bees that buzz-pollinate.",
     zones: [8, 10]
   },
   {
@@ -4003,7 +4003,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow", "orange"], difficulty: "easy", region: "southwest",
     bloomSeason: "Fall–Winter",
-    notes: "Intensely fragrant foliage. Blooms heavily in fall and winter — valuable when little else flowers. Native to Arizona/Sonora border."
+    notes: "Intensely fragrant foliage. Blooms heavily in fall and winter — valuable when little else flowers. Native to Arizona/Sonora border.",
     zones: [8, 11]
   },
   {
@@ -4015,7 +4015,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Tiny golden daisies nearly stemless above ground. Very long lived in well-drained rocky soil."
+    notes: "Tiny golden daisies nearly stemless above ground. Very long lived in well-drained rocky soil.",
     zones: [3, 8]
   },
   {
@@ -4026,7 +4026,7 @@ const plants = [
     light: ["sun", "part-shade"], moisture: ["dry"],
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
-    bloomSeason: "Summer–Fall"
+    bloomSeason: "Summer–Fall",
     zones: [7, 11]
   },
   {
@@ -4038,7 +4038,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["lavender", "purple"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring",
-    notes: "Large lavender daisies on woody stems are one of the Mojave Desert's finest spring wildflowers."
+    notes: "Large lavender daisies on woody stems are one of the Mojave Desert's finest spring wildflowers.",
     zones: [7, 10]
   },
   {
@@ -4050,7 +4050,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["white", "yellow"], difficulty: "easy", region: "southwest",
     bloomSeason: "Spring–Fall",
-    notes: "Tiny white zinnia flowers bloom for months in extreme heat and drought. An underused gem."
+    notes: "Tiny white zinnia flowers bloom for months in extreme heat and drought. An underused gem.",
     zones: [5, 10]
   },
   {
@@ -4062,7 +4062,7 @@ const plants = [
     type: "perennial", native: true, pollinatorValue: true,
     color: ["yellow"], difficulty: "easy", region: "southwest",
     bloomSeason: "Summer–Fall",
-    notes: "Golden yellow flowers over a long season. Extremely drought tolerant — one of the toughest native perennials."
+    notes: "Golden yellow flowers over a long season. Extremely drought tolerant — one of the toughest native perennials.",
     zones: [4, 9]
   },
 
@@ -4137,7 +4137,745 @@ const plants = [
     difficulty: "easy",
     region: "east",
     bloomSeason: "Fall–Winter",
-    notes: "The only native plant in the eastern US to bloom in late autumn — spidery yellow flowers appear October through March, sometimes under snow. Spice-scented. Hardy in Zones 3–8. A neighborhood conversation starter."
+    notes: "The only native plant in the eastern US to bloom in late autumn — spidery yellow flowers appear October through March, sometimes under snow. Spice-scented. Hardy in Zones 3–8. A neighborhood conversation starter.",
     zones: [3, 8]
+  },
+
+  // --- Pacific Northwest Shrubs ---
+  {
+    id: 316,
+    scientificName: "Gaultheria shallon",
+    commonName: "Salal",
+    heightMin: 2, heightMax: 6,
+    light: ["shade", "part-shade", "sun"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white", "pink"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "The backbone of Pacific Northwest understory plantings. Glossy evergreen leaves, white urn-shaped flowers, edible dark berries. Extremely adaptable from deep shade to sun.",
+    zones: [6, 9]
+  },
+  {
+    id: 317,
+    scientificName: "Rhododendron macrophyllum",
+    commonName: "Pacific Rhododendron",
+    heightMin: 6, heightMax: 20,
+    light: ["part-shade", "shade"],
+    moisture: ["moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["pink", "purple"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Washington's state flower. Enormous clusters of rose-pink blooms in late spring. Needs acidic, well-drained soil and shelter from hot afternoon sun.",
+    zones: [6, 9]
+  },
+  {
+    id: 318,
+    scientificName: "Rhododendron albiflorum",
+    commonName: "White Rhododendron",
+    heightMin: 3, heightMax: 6,
+    light: ["part-shade", "shade"],
+    moisture: ["moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Subalpine native rhododendron with pure white cup-shaped flowers. Rarer in cultivation than Pacific Rhododendron — a special find for cool, moist gardens.",
+    zones: [5, 8]
+  },
+  {
+    id: 319,
+    scientificName: "Vaccinium parvifolium",
+    commonName: "Red Huckleberry",
+    heightMin: 3, heightMax: 12,
+    light: ["shade", "part-shade"],
+    moisture: ["moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white", "pink"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Elegant arching branches with tiny leaves and brilliant red berries beloved by birds and bears alike. Often grows from old stumps in the wild — a quintessential PNW plant.",
+    zones: [5, 8]
+  },
+  {
+    id: 320,
+    scientificName: "Vaccinium membranaceum",
+    commonName: "Mountain Huckleberry",
+    heightMin: 2, heightMax: 5,
+    light: ["part-shade", "sun"],
+    moisture: ["moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white", "pink"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "The premier wild huckleberry of the Northwest — deep purple-black berries with unmatched flavor. Spectacular crimson fall color. Needs acidic soil.",
+    zones: [4, 8]
+  },
+  {
+    id: 321,
+    scientificName: "Vaccinium deliciosum",
+    commonName: "Cascade Huckleberry",
+    heightMin: 0.5, heightMax: 2,
+    light: ["sun", "part-shade"],
+    moisture: ["moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white", "pink"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Low-growing alpine huckleberry with sweet blue berries. Outstanding crimson fall color. Excellent for rock gardens in cool climates.",
+    zones: [4, 8]
+  },
+  {
+    id: 322,
+    scientificName: "Holodiscus discolor",
+    commonName: "Ocean Spray",
+    heightMin: 4, heightMax: 12,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Cascading plumes of creamy white flowers in summer are one of the great sights of the Pacific Northwest. Extremely drought tolerant once established. Important for native bees.",
+    zones: [5, 9]
+  },
+  {
+    id: 323,
+    scientificName: "Amelanchier alnifolia",
+    commonName: "Serviceberry",
+    heightMin: 4, heightMax: 15,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "One of the first shrubs to bloom in spring. Edible blue-purple berries relished by birds. Beautiful fall color. Adaptable to a wide range of conditions.",
+    zones: [3, 9]
+  },
+  {
+    id: 324,
+    scientificName: "Rosa nutkana",
+    commonName: "Nootka Rose",
+    heightMin: 3, heightMax: 8,
+    light: ["sun", "part-shade"],
+    moisture: ["moist", "dry"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["pink"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "Large fragrant pink flowers followed by fat red rose hips — excellent wildlife food. The most common native rose of the Pacific Northwest. Spreads by suckers.",
+    zones: [3, 9]
+  },
+  {
+    id: 325,
+    scientificName: "Rosa gymnocarpa",
+    commonName: "Baldhip Rose",
+    heightMin: 2, heightMax: 5,
+    light: ["part-shade", "sun"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["pink"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "Small, delicate rose with tiny pink flowers and small red hips. More shade tolerant than most roses — good for woodland edges.",
+    zones: [5, 9]
+  },
+  {
+    id: 326,
+    scientificName: "Rubus parviflorus",
+    commonName: "Thimbleberry",
+    heightMin: 3, heightMax: 6,
+    light: ["sun", "part-shade"],
+    moisture: ["moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "Large maple-like leaves and pure white flowers followed by soft red thimble-shaped berries. Spreads by rhizome to form colonies. Great wildlife value.",
+    zones: [3, 9]
+  },
+  {
+    id: 327,
+    scientificName: "Oplopanax horridus",
+    commonName: "Devil's Club",
+    heightMin: 3, heightMax: 8,
+    light: ["shade", "part-shade"],
+    moisture: ["wet", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Enormous tropical-looking leaves on wickedly spiny stems. A dramatic statement plant for moist shade. Bright red berries. Important in Indigenous medicine. Handle with thick gloves.",
+    zones: [4, 8]
+  },
+  {
+    id: 328,
+    scientificName: "Ribes lacustre",
+    commonName: "Prickly Currant",
+    heightMin: 2, heightMax: 5,
+    light: ["shade", "part-shade"],
+    moisture: ["moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["pink", "white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Shade-tolerant currant with small pink flowers and dark purple berries. Good wildlife food source. Tolerates wetter conditions than most shrubs.",
+    zones: [3, 8]
+  },
+  {
+    id: 329,
+    scientificName: "Mahonia nervosa",
+    commonName: "Cascade Oregongrape",
+    heightMin: 1, heightMax: 2,
+    light: ["shade", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["yellow"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Low-growing evergreen shrub with holly-like leaves, fragrant yellow flower clusters, and blue-purple berries. Outstanding drought-tolerant ground cover for shade. Leaves turn red-bronze in winter.",
+    zones: [5, 9]
+  },
+  {
+    id: 330,
+    scientificName: "Ceanothus sanguineus",
+    commonName: "Redstem Ceanothus",
+    heightMin: 4, heightMax: 8,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Fragrant white flower clusters loved by native bees. Red stems are attractive in winter. More cold hardy than California ceanothus species — excellent for Pacific NW gardens.",
+    zones: [5, 9]
+  },
+  {
+    id: 331,
+    scientificName: "Lonicera ciliosa",
+    commonName: "Orange Honeysuckle",
+    heightMin: 6, heightMax: 20,
+    light: ["sun", "part-shade"],
+    moisture: ["moist", "dry"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["orange", "red"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "Twining native vine with brilliant orange-red trumpet flowers — a hummingbird magnet. One of the showiest native vines of the Pacific Northwest.",
+    zones: [5, 9]
+  },
+  {
+    id: 332,
+    scientificName: "Symphoricarpos mollis",
+    commonName: "Creeping Snowberry",
+    heightMin: 0.5, heightMax: 2,
+    light: ["part-shade", "shade"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white", "pink"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Low trailing shrub with small pink flowers and white berries. Excellent drought-tolerant ground cover for shade. Important food source for birds in winter.",
+    zones: [5, 9]
+  },
+  {
+    id: 333,
+    scientificName: "Sambucus racemosa",
+    commonName: "Red Elderberry",
+    heightMin: 6, heightMax: 15,
+    light: ["part-shade", "sun"],
+    moisture: ["moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Fast-growing shrub with flat-topped white flower clusters followed by bright red berries. Berries are important bird food but toxic to humans raw. Bold, lush texture for moist sites.",
+    zones: [3, 8]
+  },
+  {
+    id: 334,
+    scientificName: "Arctostaphylos uva-ursi",
+    commonName: "Kinnikinnick",
+    heightMin: 0.25, heightMax: 0.5,
+    light: ["sun", "part-shade"],
+    moisture: ["dry"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white", "pink"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "The ultimate drought-tolerant ground cover for sun — a dense evergreen mat only 3–6 inches tall. Pink urn-shaped flowers and red berries beloved by birds. Works in rocky, sandy, or poor soils.",
+    zones: [2, 8]
+  },
+  {
+    id: 335,
+    scientificName: "Dasiphora fruticosa",
+    commonName: "Shrubby Cinquefoil",
+    heightMin: 1, heightMax: 4,
+    light: ["sun"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["yellow"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Summer–Fall",
+    notes: "One of the longest-blooming native shrubs — yellow buttercup flowers from June through frost. Extremely cold hardy and drought tolerant. Also called Potentilla fruticosa.",
+    zones: [2, 7]
+  },
+  {
+    id: 336,
+    scientificName: "Paxistima myrsinites",
+    commonName: "Mountain Boxwood",
+    heightMin: 1, heightMax: 3,
+    light: ["part-shade", "sun"],
+    moisture: ["dry", "moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Tidy evergreen shrub with small glossy leaves resembling boxwood — an excellent native alternative. Tiny fragrant flowers. Very adaptable and underused in gardens.",
+    zones: [3, 8]
+  },
+  {
+    id: 337,
+    scientificName: "Phyllodoce empetriformis",
+    commonName: "Red Mountain Heather",
+    heightMin: 0.5, heightMax: 1.5,
+    light: ["sun", "part-shade"],
+    moisture: ["moist"],
+    type: "shrub", native: true, pollinatorValue: true,
+    color: ["pink", "purple"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Carpet-forming heath of the high alpine — needle-like evergreen leaves and rosy-pink urn flowers. Stunning on rocky slopes in cool gardens. Needs excellent drainage and cool roots.",
+    zones: [3, 7]
+  },
+
+  // --- Pacific Northwest Ferns ---
+  {
+    id: 338,
+    scientificName: "Polypodium glycyrrhiza",
+    commonName: "Licorice Fern",
+    heightMin: 0.5, heightMax: 1.5,
+    light: ["shade", "part-shade"],
+    moisture: ["moist"],
+    type: "fern", native: true, pollinatorValue: false,
+    color: ["foliage"],
+    difficulty: "easy",
+    region: "west",
+    notes: "Grows epiphytically on mossy rocks and tree trunks, especially bigleaf maple. Rhizomes taste of licorice. Evergreen and unforgettable in a winter garden.",
+    zones: [6, 9]
+  },
+  {
+    id: 339,
+    scientificName: "Gymnocarpium dryopteris",
+    commonName: "Oak Fern",
+    heightMin: 0.5, heightMax: 1,
+    light: ["shade"],
+    moisture: ["moist"],
+    type: "fern", native: true, pollinatorValue: false,
+    color: ["foliage"],
+    difficulty: "easy",
+    region: "west",
+    notes: "Delicate triangular fronds spread to form a bright green carpet in cool, moist shade. One of the most elegant native groundcover ferns.",
+    zones: [2, 8]
+  },
+  {
+    id: 340,
+    scientificName: "Cystopteris fragilis",
+    commonName: "Fragile Fern",
+    heightMin: 0.5, heightMax: 1,
+    light: ["shade", "part-shade"],
+    moisture: ["moist", "dry"],
+    type: "fern", native: true, pollinatorValue: false,
+    color: ["foliage"],
+    difficulty: "easy",
+    region: "west",
+    notes: "Delicate lacy fronds in rock crevices and shaded walls. Very adaptable — one of the most widespread native ferns in North America.",
+    zones: [3, 8]
+  },
+  {
+    id: 341,
+    scientificName: "Polystichum lonchitis",
+    commonName: "Holly Fern",
+    heightMin: 1, heightMax: 2,
+    light: ["shade", "part-shade"],
+    moisture: ["moist", "dry"],
+    type: "fern", native: true, pollinatorValue: false,
+    color: ["foliage"],
+    difficulty: "moderate",
+    region: "west",
+    notes: "Stiff, dark green evergreen fronds with holly-like teeth. More drought tolerant than most ferns. Stunning in combination with other woodland plants.",
+    zones: [4, 8]
+  },
+  {
+    id: 342,
+    scientificName: "Cryptogramma acrostichoides",
+    commonName: "Parsley Fern",
+    heightMin: 0.25, heightMax: 0.75,
+    light: ["sun", "part-shade"],
+    moisture: ["dry"],
+    type: "fern", native: true, pollinatorValue: false,
+    color: ["foliage"],
+    difficulty: "challenging",
+    region: "west",
+    notes: "Bright parsley-like fronds tucked into rocky alpine talus slopes. A specialist for rock gardens in cool climates — needs perfect drainage and low-nutrient soil.",
+    zones: [3, 7]
+  },
+
+  // --- Pacific Northwest Perennials ---
+  {
+    id: 343,
+    scientificName: "Achlys triphylla",
+    commonName: "Vanilla Leaf",
+    heightMin: 0.5, heightMax: 1.5,
+    light: ["shade", "part-shade"],
+    moisture: ["moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Large three-parted leaves form a lush ground cover — dried leaves smell of vanilla. Wands of tiny white flowers in spring. Spreads slowly to form colonies.",
+    zones: [5, 9]
+  },
+  {
+    id: 344,
+    scientificName: "Chamaenerion angustifolium",
+    commonName: "Fireweed",
+    heightMin: 3, heightMax: 6,
+    light: ["sun", "part-shade"],
+    moisture: ["moist", "dry"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["pink", "purple"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Iconic magenta spires — one of the first plants to colonize after fire or disturbance. Excellent for naturalizing. Can spread by rhizome and wind-blown seed. Important bee plant.",
+    zones: [2, 7]
+  },
+  {
+    id: 345,
+    scientificName: "Linnaea borealis",
+    commonName: "Twinflower",
+    heightMin: 0.1, heightMax: 0.25,
+    light: ["shade", "part-shade"],
+    moisture: ["moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["pink", "white"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Dainty paired pink bells nod from thread-thin stems above a creeping mat of tiny leaves. Fragrant. One of the most charming plants of the boreal forest floor.",
+    zones: [2, 6]
+  },
+  {
+    id: 346,
+    scientificName: "Erigeron speciosus",
+    commonName: "Showy Fleabane",
+    heightMin: 1, heightMax: 2.5,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["lavender", "purple"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "One of the showiest native daisies — lavender-purple rays around a yellow center. Long blooming season. Very easy and reliable in western gardens.",
+    zones: [3, 8]
+  },
+  {
+    id: 347,
+    scientificName: "Arnica cordifolia",
+    commonName: "Heart-leaf Arnica",
+    heightMin: 0.5, heightMax: 1.5,
+    light: ["part-shade", "shade"],
+    moisture: ["dry", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["yellow"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "Bright yellow daisy-like flowers light up the dry conifer forest floor. Heart-shaped leaves are distinctive. Spreads by rhizome under trees.",
+    zones: [3, 8]
+  },
+  {
+    id: 348,
+    scientificName: "Solidago multiradiata",
+    commonName: "Rocky Mountain Goldenrod",
+    heightMin: 0.5, heightMax: 1.5,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["yellow"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Summer–Fall",
+    notes: "Compact goldenrod native to western mountain meadows. Golden plumes in late summer feed dozens of native bee species. Much more restrained than eastern goldenrods.",
+    zones: [2, 7]
+  },
+  {
+    id: 349,
+    scientificName: "Erythranthe lewisii",
+    commonName: "Lewis's Monkeyflower",
+    heightMin: 1, heightMax: 3,
+    light: ["sun", "part-shade"],
+    moisture: ["wet", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["pink"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Large rose-pink flowers along mountain streams. One of the most beautiful native wildflowers of the Cascades. Needs consistent moisture — perfect for a rain garden or streamside.",
+    zones: [4, 8]
+  },
+  {
+    id: 350,
+    scientificName: "Polemonium pulcherrimum",
+    commonName: "Showy Jacob's Ladder",
+    heightMin: 0.5, heightMax: 1.5,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["blue", "purple"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "Bright blue-violet flowers with yellow centers above delicate ladder-like foliage. More compact and drought tolerant than eastern Jacob's Ladder.",
+    zones: [3, 8]
+  },
+  {
+    id: 351,
+    scientificName: "Phlox diffusa",
+    commonName: "Spreading Phlox",
+    heightMin: 0.25, heightMax: 0.5,
+    light: ["sun"],
+    moisture: ["dry"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["pink", "white", "lavender"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "Cushion-forming phlox that covers itself in flowers in spring. Classic alpine rock garden plant. Needs excellent drainage and full sun.",
+    zones: [4, 8]
+  },
+  {
+    id: 352,
+    scientificName: "Valeriana sitchensis",
+    commonName: "Sitka Valerian",
+    heightMin: 1, heightMax: 3,
+    light: ["sun", "part-shade"],
+    moisture: ["wet", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["white", "pink"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Fragrant white flower clusters brighten moist meadows and streambanks. A stalwart of subalpine gardens in the Pacific Northwest.",
+    zones: [4, 8]
+  },
+  {
+    id: 353,
+    scientificName: "Viola adunca",
+    commonName: "Early Blue Violet",
+    heightMin: 0.25, heightMax: 0.5,
+    light: ["sun", "part-shade"],
+    moisture: ["moist", "dry"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["blue", "purple"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "One of the earliest-blooming violets of the Pacific Northwest. Small blue-violet flowers. Larval host plant for several native fritillary butterflies.",
+    zones: [3, 9]
+  },
+  {
+    id: 354,
+    scientificName: "Viola glabella",
+    commonName: "Stream Violet",
+    heightMin: 0.25, heightMax: 0.75,
+    light: ["shade", "part-shade"],
+    moisture: ["wet", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["yellow"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Cheerful yellow flowers with dark veins brighten wet woodland floors and stream edges. One of the few yellow violets native to the Pacific Northwest.",
+    zones: [4, 9]
+  },
+  {
+    id: 355,
+    scientificName: "Xerophyllum tenax",
+    commonName: "Beargrass",
+    heightMin: 2, heightMax: 5,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Iconic Pacific Northwest plant — dense grass-like clumps topped by a spectacular white flower spike every few years. Used for centuries in Native basketry. Slow to bloom but unforgettable when it does.",
+    zones: [4, 8]
+  },
+  {
+    id: 356,
+    scientificName: "Clintonia uniflora",
+    commonName: "Queen's Cup",
+    heightMin: 0.25, heightMax: 0.5,
+    light: ["shade", "part-shade"],
+    moisture: ["moist"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Spring–Summer",
+    notes: "A single perfect white flower followed by a single cobalt-blue berry. One of the most refined woodland wildflowers of the Cascades — needs cool, acidic, moist conditions.",
+    zones: [3, 8]
+  },
+  {
+    id: 357,
+    scientificName: "Maianthemum stellatum",
+    commonName: "Starry False Solomon's Seal",
+    heightMin: 0.5, heightMax: 2,
+    light: ["part-shade", "shade"],
+    moisture: ["moist", "dry"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "easy",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Arching stems with star-shaped white flowers and striped red berries. Spreads slowly by rhizome. More adaptable than its relative Maianthemum racemosum.",
+    zones: [3, 8]
+  },
+  {
+    id: 358,
+    scientificName: "Penstemon davidsonii",
+    commonName: "Davidson's Penstemon",
+    heightMin: 0.25, heightMax: 0.5,
+    light: ["sun"],
+    moisture: ["dry"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["lavender", "purple"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Mat-forming alpine penstemon with large lavender-purple trumpets — huge flowers for such a tiny plant. Perfect for rock gardens with excellent drainage.",
+    zones: [4, 8]
+  },
+  {
+    id: 359,
+    scientificName: "Castilleja miniata",
+    commonName: "Scarlet Paintbrush",
+    heightMin: 1, heightMax: 2.5,
+    light: ["sun", "part-shade"],
+    moisture: ["moist", "dry"],
+    type: "perennial", native: true, pollinatorValue: true,
+    color: ["red", "orange"],
+    difficulty: "challenging",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Brilliant scarlet bracts are a hummingbird magnet in mountain meadows. Hemiparasitic on grass roots — notoriously difficult to transplant. Grow from seed in situ with host grasses.",
+    zones: [3, 8]
+  },
+
+  // --- Pacific Northwest Bulbs ---
+  {
+    id: 360,
+    scientificName: "Erythronium grandiflorum",
+    commonName: "Glacier Lily",
+    heightMin: 0.5, heightMax: 1,
+    light: ["sun", "part-shade"],
+    moisture: ["moist"],
+    type: "bulb", native: true, pollinatorValue: true,
+    color: ["yellow"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Brilliant golden-yellow reflexed petals push through melting snow in early spring — one of the most breathtaking native wildflowers. Needs excellent drainage and consistent cool moisture.",
+    zones: [3, 8]
+  },
+  {
+    id: 361,
+    scientificName: "Erythronium montanum",
+    commonName: "Avalanche Lily",
+    heightMin: 0.5, heightMax: 1,
+    light: ["sun", "part-shade"],
+    moisture: ["moist"],
+    type: "bulb", native: true, pollinatorValue: true,
+    color: ["white"],
+    difficulty: "challenging",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Pure white reflexed blooms with yellow centers emerge directly from snowmelt. One of the most spectacular alpine wildflowers in the Northwest. Needs very specific cool, moist conditions.",
+    zones: [4, 8]
+  },
+  {
+    id: 362,
+    scientificName: "Lilium columbianum",
+    commonName: "Columbia Tiger Lily",
+    heightMin: 2, heightMax: 5,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "bulb", native: true, pollinatorValue: true,
+    color: ["orange", "yellow"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Summer",
+    notes: "Nodding orange flowers with dark spots — the tiger lily of the Pacific Northwest. One of the region's most beautiful native bulbs. Hummingbird and swallowtail favorite.",
+    zones: [4, 9]
+  },
+  {
+    id: 363,
+    scientificName: "Fritillaria affinis",
+    commonName: "Chocolate Lily",
+    heightMin: 1, heightMax: 2.5,
+    light: ["sun", "part-shade"],
+    moisture: ["dry", "moist"],
+    type: "bulb", native: true, pollinatorValue: true,
+    color: ["purple"],
+    difficulty: "moderate",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "Nodding purple-brown checked bells on slender stems — unusual and elegant. Corms were an important food source for Indigenous peoples. Slow from seed but worth every year.",
+    zones: [5, 9]
+  },
+  {
+    id: 364,
+    scientificName: "Calypso bulbosa",
+    commonName: "Fairy Slipper Orchid",
+    heightMin: 0.25, heightMax: 0.5,
+    light: ["shade"],
+    moisture: ["moist"],
+    type: "bulb", native: true, pollinatorValue: true,
+    color: ["pink", "purple"],
+    difficulty: "challenging",
+    region: "west",
+    bloomSeason: "Spring",
+    notes: "One of the most exquisite native orchids — a jewel-like pink slipper flower in deep conifer shade. Extremely difficult to cultivate; depends on specific soil fungi. Never purchase wild-collected plants.",
+    zones: [3, 7]
   }
 ];
