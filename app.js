@@ -13,7 +13,7 @@ async function lookupZone() {
     return;
   }
 
-  result.textContent = "Looking up...";
+  result.innerHTML = "Looking up...";
 
   try {
     const response = await fetch(`https://phzmapi.com/${zip}.json`);
@@ -23,7 +23,7 @@ async function lookupZone() {
     const range = data.temperature_range;
     result.textContent = `Zone ${zone} — ${range}`;
   } catch {
-    result.textContent = "Zone not found. Check your ZIP and try again.";
+    result.innerHTML = `Lookup unavailable — <a href="https://planthardiness.ars.usda.gov/?zipcode=${zip}" target="_blank" rel="noopener" style="color:#f9f7f2">find your zone on the USDA site</a>.`;
   }
 }
 
