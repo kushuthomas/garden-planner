@@ -39,6 +39,7 @@ function filterPlants() {
   const selectedColor      = getCheckedValues("color");
   const selectedDifficulty = getCheckedValues("difficulty");
   const selectedRegion     = getCheckedValues("region");
+  const selectedZone       = getCheckedValues("zone").map(Number);
   const selectedClay       = getCheckedValues("clay");
   const selectedBloom      = getCheckedValues("bloom");
   const maxHeight          = parseInt(document.getElementById("heightFilter").value);
@@ -53,6 +54,10 @@ function filterPlants() {
     if (selectedColor.length > 0 && !selectedColor.some(c => plant.color.includes(c))) return false;
     if (selectedDifficulty.length > 0 && !selectedDifficulty.includes(plant.difficulty)) return false;
     if (selectedRegion.length > 0 && !selectedRegion.includes(plantRegion)) return false;
+    if (selectedZone.length > 0) {
+      if (!plant.zones) return false;
+      if (!selectedZone.some(z => z >= plant.zones[0] && z <= plant.zones[1])) return false;
+    }
     if (selectedClay.length > 0) {
       if (!plant.clayTolerance) return false;
       if (!selectedClay.includes(plant.clayTolerance)) return false;
