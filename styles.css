@@ -96,8 +96,9 @@ header .tagline {
 }
 
 .search-icon {
-  font-size: 1.1rem;
+  color: #f9f7f2;
   opacity: 0.85;
+  flex-shrink: 0;
 }
 
 /* Sidebar zone link */
