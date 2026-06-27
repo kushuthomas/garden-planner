@@ -176,11 +176,43 @@ input[type="range"] {
   flex: 1;
 }
 
+.results-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
 .result-count {
   font-size: 0.9rem;
   color: #777;
-  margin-bottom: 1rem;
   font-style: italic;
+}
+
+.wishlist-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+#printWishlistBtn {
+  padding: 0.4rem 0.8rem;
+  background: #3b5e3f;
+  color: #f9f7f2;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+#printWishlistBtn:hover {
+  background: #2a4430;
 }
 
 .plant-grid {
@@ -191,11 +223,26 @@ input[type="range"] {
 
 /* Plant card */
 .plant-card {
+  position: relative;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 6px;
-  padding: 1.2rem;
+  padding: 1.2rem 1.2rem 1.2rem 2.6rem;
   transition: box-shadow 0.2s;
+}
+
+.wishlist-checkbox {
+  position: absolute;
+  top: 1.1rem;
+  left: 1rem;
+  cursor: pointer;
+}
+
+.wishlist-checkbox input {
+  width: 17px;
+  height: 17px;
+  accent-color: #3b5e3f;
+  cursor: pointer;
 }
 
 .plant-card:hover {
@@ -315,5 +362,41 @@ input[type="range"] {
   .filters {
     position: static;
     flex: none;
+  }
+}
+
+/* Wish list print view */
+.print-only {
+  display: none;
+}
+
+@media print {
+  body > *:not(.print-only) {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-only h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  .wishlist-item {
+    border-bottom: 1px solid #ccc;
+    padding: 0.8rem 0;
+  }
+  .wishlist-item h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+  }
+  .wishlist-item .scientific {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.4rem;
+  }
+  .wishlist-item .notes {
+    font-size: 0.85rem;
+    color: #444;
+    margin-top: 0.3rem;
   }
 }

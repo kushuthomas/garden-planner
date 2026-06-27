@@ -145,10 +145,18 @@
     </aside>
 
     <section class="results">
-      <p class="result-count" id="resultCount"></p>
+      <div class="results-bar">
+        <p class="result-count" id="resultCount"></p>
+        <div class="wishlist-bar">
+          <span id="wishlistCount">0 plants saved</span>
+          <button id="printWishlistBtn">Print Wish List</button>
+        </div>
+      </div>
       <div class="plant-grid" id="plantGrid"></div>
     </section>
   </main>
+
+  <div id="wishlistPrintArea" class="print-only"></div>
 
   <script src="plants.js"></script>
   <script src="app.js"></script>

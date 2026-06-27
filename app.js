@@ -5,6 +5,45 @@ document.getElementById("usdaLink").addEventListener("click", function (e) {
   if (win) win.focus();
 });
 
+// Wish list
+const wishlist = new Set(JSON.parse(localStorage.getItem("wishlist") || "[]"));
+
+function saveWishlist() {
+  localStorage.setItem("wishlist", JSON.stringify([...wishlist]));
+  document.getElementById("wishlistCount").textContent =
+    `${wishlist.size} plant${wishlist.size !== 1 ? "s" : ""} saved`;
+}
+
+function printWishlist() {
+  const selected = plants.filter(p => wishlist.has(p.id));
+  const area = document.getElementById("wishlistPrintArea");
+
+  if (selected.length === 0) {
+    alert("Your wish list is empty. Check a plant's box to add it first.");
+    return;
+  }
+
+  area.innerHTML = `
+    <h1>My Native Plant Wish List</h1>
+    ${selected.map(p => `
+      <div class="wishlist-item">
+        <h2>${p.commonName}</h2>
+        <p class="scientific">${p.scientificName}</p>
+        <p>Height: ${p.heightMin === p.heightMax ? p.heightMin : p.heightMin + "–" + p.heightMax} ft
+          &nbsp;·&nbsp; ${p.type.charAt(0).toUpperCase() + p.type.slice(1)}
+          ${p.native ? " &nbsp;·&nbsp; Native" : ""}
+        </p>
+        ${p.bloomSeason ? `<p>Blooms: ${p.bloomSeason}</p>` : ""}
+        ${p.notes ? `<p class="notes">${p.notes}</p>` : ""}
+      </div>
+    `).join("")}
+  `;
+
+  window.print();
+}
+
+document.getElementById("printWishlistBtn").addEventListener("click", printWishlist);
+
 function getCheckedValues(name) {
   return Array.from(document.querySelectorAll(`input[name="${name}"]:checked`))
     .map(el => el.value);
@@ -90,6 +129,9 @@ function renderPlants(list) {
 
   grid.innerHTML = list.map(plant => `
     <div class="plant-card">
+      <label class="wishlist-checkbox" title="Add to wish list">
+        <input type="checkbox" class="wish-cb" data-id="${plant.id}" ${wishlist.has(plant.id) ? "checked" : ""} />
+      </label>
       <h3>${plant.commonName}</h3>
       <p class="scientific">${plant.scientificName}</p>
 
@@ -151,4 +193,16 @@ document.querySelectorAll("input[type=checkbox]").forEach(cb => {
 
 document.getElementById("plantSearch").addEventListener("input", update);
 
+document.getElementById("plantGrid").addEventListener("change", function (e) {
+  if (!e.target.classList.contains("wish-cb")) return;
+  const id = Number(e.target.dataset.id);
+  if (e.target.checked) {
+    wishlist.add(id);
+  } else {
+    wishlist.delete(id);
+  }
+  saveWishlist();
+});
+
+saveWishlist();
 update();
