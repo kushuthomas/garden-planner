@@ -23,7 +23,12 @@ async function lookupZone() {
     const range = data.temperature_range;
     result.textContent = `Zone ${zone} — ${range}`;
   } catch {
-    result.innerHTML = `Lookup unavailable — <a href="https://planthardiness.ars.usda.gov/?zipcode=${zip}" target="_blank" rel="noopener" style="color:#f9f7f2">find your zone on the USDA site</a>.`;
+    result.innerHTML = `Lookup unavailable — <a href="#" id="usdaLink">find your zone on the USDA site</a>.`;
+    document.getElementById("usdaLink").addEventListener("click", function (e) {
+      e.preventDefault();
+      const win = window.open(`https://planthardiness.ars.usda.gov/?zipcode=${zip}`, "_blank", "noopener");
+      if (win) win.focus();
+    });
   }
 }
 
@@ -33,6 +38,14 @@ function getCheckedValues(name) {
 }
 
 function filterPlants() {
+  const searchTerm = document.getElementById("plantSearch").value.trim().toLowerCase();
+  if (searchTerm) {
+    return plants.filter(plant =>
+      plant.commonName.toLowerCase().includes(searchTerm) ||
+      plant.scientificName.toLowerCase().includes(searchTerm)
+    );
+  }
+
   const selectedLight      = getCheckedValues("light");
   const selectedMoisture   = getCheckedValues("moisture");
   const selectedType       = getCheckedValues("type");
@@ -162,5 +175,7 @@ document.getElementById("resetBtn").addEventListener("click", function () {
 document.querySelectorAll("input[type=checkbox]").forEach(cb => {
   cb.addEventListener("change", update);
 });
+
+document.getElementById("plantSearch").addEventListener("input", update);
 
 update();

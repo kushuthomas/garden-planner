@@ -9,12 +9,14 @@
 <body>
 
   <header>
-    <h1>Native Garden Planner</h1>
-    <p class="tagline">Find the right plant for the right place</p>
-    <div class="zone-bar">
-      <input type="text" id="zipInput" placeholder="Enter your ZIP code" maxlength="5" />
-      <button id="zoneBtn">Look Up Zone</button>
-      <span id="zoneResult"></span>
+    <div class="header-top">
+      <div class="header-title">
+        <h1>Native Garden Planner</h1>
+        <p class="tagline">Find the right plant for the right place</p>
+      </div>
+      <div class="plant-search">
+        <input type="text" id="plantSearch" placeholder="Search by plant name..." />
+      </div>
     </div>
   </header>
 
@@ -105,6 +107,11 @@
 
       <div class="filter-group">
         <label>Hardiness Zone</label>
+        <div class="zone-lookup">
+          <input type="text" id="zipInput" placeholder="ZIP code" maxlength="5" />
+          <button id="zoneBtn">Look Up</button>
+        </div>
+        <p id="zoneResult"></p>
         <div class="checkbox-group">
           <label><input type="checkbox" name="zone" value="2" /> Zone 2</label>
           <label><input type="checkbox" name="zone" value="3" /> Zone 3</label>
