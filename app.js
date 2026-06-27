@@ -191,7 +191,20 @@ document.querySelectorAll("input[type=checkbox]").forEach(cb => {
   cb.addEventListener("change", update);
 });
 
-document.getElementById("plantSearch").addEventListener("input", update);
+const plantSearchInput = document.getElementById("plantSearch");
+const clearSearchBtn = document.getElementById("clearSearchBtn");
+
+plantSearchInput.addEventListener("input", function () {
+  clearSearchBtn.classList.toggle("visible", plantSearchInput.value.length > 0);
+  update();
+});
+
+clearSearchBtn.addEventListener("click", function () {
+  plantSearchInput.value = "";
+  clearSearchBtn.classList.remove("visible");
+  plantSearchInput.focus();
+  update();
+});
 
 document.getElementById("plantGrid").addEventListener("change", function (e) {
   if (!e.target.classList.contains("wish-cb")) return;

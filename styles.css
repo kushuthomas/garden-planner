@@ -47,10 +47,17 @@ header .tagline {
 
 .plant-search {
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-input-wrap {
+  position: relative;
 }
 
 .plant-search input {
-  padding: 0.5rem 0.9rem;
+  padding: 0.5rem 2rem 0.5rem 0.9rem;
   border: 1px solid rgba(255,255,255,0.4);
   border-radius: 4px;
   background: rgba(255,255,255,0.15);
@@ -62,6 +69,35 @@ header .tagline {
 
 .plant-search input::placeholder {
   color: rgba(255,255,255,0.6);
+}
+
+.clear-search-btn {
+  display: none;
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #f9f7f2;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.1rem 0.3rem;
+  opacity: 0.8;
+}
+
+.clear-search-btn:hover {
+  opacity: 1;
+}
+
+.clear-search-btn.visible {
+  display: block;
+}
+
+.search-icon {
+  font-size: 1.1rem;
+  opacity: 0.85;
 }
 
 /* Sidebar zone link */
