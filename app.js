@@ -217,5 +217,14 @@ document.getElementById("plantGrid").addEventListener("change", function (e) {
   saveWishlist();
 });
 
+const filterToggleBtn = document.getElementById("filterToggleBtn");
+const filtersPanel = document.getElementById("filtersPanel");
+
+filterToggleBtn.addEventListener("click", function () {
+  const isOpen = filtersPanel.classList.toggle("open");
+  filterToggleBtn.textContent = isOpen ? "Hide Filters" : "Show Filters";
+  filterToggleBtn.setAttribute("aria-expanded", isOpen);
+});
+
 saveWishlist();
 update();

@@ -121,6 +121,10 @@ main {
   padding: 0 1.5rem;
 }
 
+.filter-toggle-btn {
+  display: none;
+}
+
 /* Filters sidebar */
 .filters {
   flex: 0 0 220px;
@@ -396,9 +400,26 @@ input[type="range"] {
   main {
     flex-direction: column;
   }
+  .filter-toggle-btn {
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    background: #3b5e3f;
+    color: #f9f7f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
   .filters {
     position: static;
     flex: none;
+    max-height: none;
+    display: none;
+  }
+  .filters.open {
+    display: block;
   }
 }
 
