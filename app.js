@@ -1,36 +1,9 @@
 // Zone lookup
-document.getElementById("zoneBtn").addEventListener("click", lookupZone);
-document.getElementById("zipInput").addEventListener("keydown", function (e) {
-  if (e.key === "Enter") lookupZone();
+document.getElementById("usdaLink").addEventListener("click", function (e) {
+  e.preventDefault();
+  const win = window.open("https://planthardiness.ars.usda.gov/", "_blank", "noopener");
+  if (win) win.focus();
 });
-
-async function lookupZone() {
-  const zip = document.getElementById("zipInput").value.trim();
-  const result = document.getElementById("zoneResult");
-
-  if (!/^\d{5}$/.test(zip)) {
-    result.textContent = "Please enter a 5-digit ZIP code.";
-    return;
-  }
-
-  result.innerHTML = "Looking up...";
-
-  try {
-    const response = await fetch(`https://phzmapi.com/${zip}.json`);
-    if (!response.ok) throw new Error("Not found");
-    const data = await response.json();
-    const zone = data.zone;
-    const range = data.temperature_range;
-    result.textContent = `Zone ${zone} — ${range}`;
-  } catch {
-    result.innerHTML = `Lookup unavailable — <a href="#" id="usdaLink">find your zone on the USDA site</a>.`;
-    document.getElementById("usdaLink").addEventListener("click", function (e) {
-      e.preventDefault();
-      const win = window.open(`https://planthardiness.ars.usda.gov/?zipcode=${zip}`, "_blank", "noopener");
-      if (win) win.focus();
-    });
-  }
-}
 
 function getCheckedValues(name) {
   return Array.from(document.querySelectorAll(`input[name="${name}"]:checked`))
